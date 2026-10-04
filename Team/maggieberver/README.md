@@ -13,4 +13,4 @@ Significa diseñar una experiencia inmersiva y entretenida para los demás.
 ### ¿Cómo imagino mi rol como diseñador durante el curso?
 Quiero mejorar la idea de videojuego que tiene mi equipo para que los usuarios finales disfruten al máximo su tiempo de juego, haciéndolos sentir como si estuvieran dentro de él.
 
-![Mi foto](https://github.com/redbornarts/stranded/blob/main/integrantes/maggieberver/MiFoto.jpeg "maggieberver")
+![Mi foto](https://github.com/Dymstack/LumiIntoTheDark/blob/main/Team/maggieberver/MiFoto.jpeg "maggieberver")
