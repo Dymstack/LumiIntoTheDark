@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://b46tl7b20udmp"]
+
+[ext_resource type="Texture2D" uid="uid://dcvaas6n6oirj" path="res://icon.svg" id="1_12hi3"]
+[ext_resource type="Script" uid="uid://c8p01hkrolwat" path="res://tiburon.gd" id="1_fuieb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kfsbt"]
+size = Vector2(122, 101)
+
+[node name="Tiburon" type="Area2D" unique_id=1714682830]
+script = ExtResource("1_fuieb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=799281622]
+texture = ExtResource("1_12hi3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1542795928]
+shape = SubResource("RectangleShape2D_kfsbt")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

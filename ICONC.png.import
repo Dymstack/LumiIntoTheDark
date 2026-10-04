@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://js8b0i5cj1nb"
+path="res://.godot/imported/ICONC.png-2b9a4e56ea9e594501f9e945d336854c.res"
+
+[deps]
+
+source_file="res://ICONC.png"
+dest_files=["res://.godot/imported/ICONC.png-2b9a4e56ea9e594501f9e945d336854c.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

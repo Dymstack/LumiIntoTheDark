@@ -1,0 +1,69 @@
+[gd_scene format=3 uid="uid://be4kj3khl40fr"]
+
+[ext_resource type="PackedScene" uid="uid://cyqkhf04kxsvh" path="res://lumi.tscn" id="1_1g353"]
+[ext_resource type="VideoStream" uid="uid://dsiw11ym6q3w3" path="res://BG_NIvel2.ogv" id="1_3ux85"]
+[ext_resource type="PackedScene" uid="uid://bhr8kltq37533" path="res://hud.tscn" id="2_t82tv"]
+[ext_resource type="PackedScene" uid="uid://b46tl7b20udmp" path="res://tiburon.tscn" id="3_oaeky"]
+[ext_resource type="Script" uid="uid://bnwb1ii88httx" path="res://enemigo_ruta.gd" id="4_lj8fh"]
+[ext_resource type="Texture2D" uid="uid://dcvaas6n6oirj" path="res://icon.svg" id="5_tnojt"]
+[ext_resource type="Script" uid="uid://bqwm3aopplo3h" path="res://zona_transicion.gd" id="6_tnojt"]
+[ext_resource type="PackedScene" uid="uid://dpttbwvgvcgkt" path="res://nivel_3.tscn" id="7_es3ns"]
+
+[sub_resource type="Curve2D" id="Curve2D_es3ns"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -71, 768, 0, 0, 0, 0, -35, 733, 0, 0, 0, 0, -5, 718, 0, 0, 0, 0, 30, 730, 0, 0, 0, 0, 67, 763, 0, 0, 0, 0, 86, 798, 0, 0, 0, 0, 112, 825, 0, 0, 0, 0, 146, 840, 0, 0, 0, 0, 185, 841, 0, 0, 0, 0, 218, 830, 0, 0, 0, 0, 251, 799, 0, 0, 0, 0, 286, 767, 0, 0, 0, 0, 323, 748, 0, 0, 0, 0, 366, 736, 0, 0, 0, 0, 412, 735, 0, 0, 0, 0, 455, 743, 0, 0, 0, 0, 493, 762, 0, 0, 0, 0, 527, 790, 0, 0, 0, 0, 554, 818, 0, 0, 0, 0, 584, 834, 0, 0, 0, 0, 622, 839, 0, 0, 0, 0, 672, 841, 0, 0, 0, 0, 725, 829, 0, 0, 0, 0, 780, 815, 0, 0, 0, 0, 827, 773, 0, 0, 0, 0, 820, 717, 0, 0, 0, 0, 778, 723, 0, 0, 0, 0, 721, 728, 0, 0, 0, 0, 670, 730, 0, 0, 0, 0, 628, 728, 0, 0, 0, 0, 574, 738, 0, 0, 0, 0, 535, 761, 0, 0, 0, 0, 501, 791, 0, 0, 0, 0, 467, 832, 0, 0, 0, 0, 436, 853, 0, 0, 0, 0, 393, 873, 0, 0, 0, 0, 353, 871, 0, 0, 0, 0, 323, 855, 0, 0, 0, 0, 297, 831, 0, 0, 0, 0, 275, 806, 0, 0, 0, 0, 252, 783, 0, 0, 0, 0, 221, 768, 0, 0, 0, 0, 187, 765, 0, 0, 0, 0, 150, 771, 0, 0, 0, 0, 119, 784, 0, 0, 0, 0, 91, 795, 0, 0, 0, 0, 58, 793, 0, 0, 0, 0, 23, 793, 0, 0, 0, 0, -48, 809, 0, 0, 0, 0, -100, 825, 0, 0, 0, 0, -81, 771, 0, 0, 0, 0, -70, 764, 0, 0, 0, 0, -71, 768)
+}
+point_count = 53
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kfsbt"]
+size = Vector2(116.73053, 58.654205)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8d38i"]
+size = Vector2(722, 42)
+
+[node name="Nivel2" type="Node2D" unique_id=472312449]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=856141032]
+offset_right = 720.0
+offset_bottom = 1280.0
+mouse_filter = 2
+stream = ExtResource("1_3ux85")
+autoplay = true
+expand = true
+loop = true
+
+[node name="Lumi" parent="." unique_id=925782345 instance=ExtResource("1_1g353")]
+position = Vector2(360, 70)
+
+[node name="HUD" parent="." unique_id=1539810251 instance=ExtResource("2_t82tv")]
+
+[node name="Tiburon" parent="." unique_id=1714682830 instance=ExtResource("3_oaeky")]
+position = Vector2(300, 500)
+
+[node name="Path2D" type="Path2D" parent="." unique_id=476824462]
+curve = SubResource("Curve2D_es3ns")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D" unique_id=840500049]
+position = Vector2(-71, 768)
+rotation = -0.77131456
+script = ExtResource("4_lj8fh")
+
+[node name="Sprite2D" type="Sprite2D" parent="Path2D/PathFollow2D" unique_id=1460880211]
+texture = ExtResource("5_tnojt")
+
+[node name="Area2D" type="Area2D" parent="Path2D/PathFollow2D" unique_id=1134235882]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Path2D/PathFollow2D/Area2D" unique_id=1746412814]
+shape = SubResource("RectangleShape2D_kfsbt")
+
+[node name="ZonaTransicion" type="Area2D" parent="." unique_id=368419998]
+position = Vector2(360, 1270)
+script = ExtResource("6_tnojt")
+escena_destino = ExtResource("7_es3ns")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZonaTransicion" unique_id=2048680455]
+shape = SubResource("RectangleShape2D_8d38i")
+
+[connection signal="body_entered" from="ZonaTransicion" to="ZonaTransicion" method="_on_body_entered"]
+
+[editable path="Lumi"]

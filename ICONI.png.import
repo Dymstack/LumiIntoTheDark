@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://cwvgygml04qrv"
+path="res://.godot/imported/ICONI.png-89c605ff94a19471745f455b9d9bf838.res"
+
+[deps]
+
+source_file="res://ICONI.png"
+dest_files=["res://.godot/imported/ICONI.png-89c605ff94a19471745f455b9d9bf838.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

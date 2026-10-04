@@ -1,0 +1,92 @@
+[gd_scene format=3 uid="uid://c8egonsqe7yxp"]
+
+[ext_resource type="VideoStream" uid="uid://djbqt1v84a3pu" path="res://BG_1Nivel.ogv" id="1_2q1oh"]
+[ext_resource type="PackedScene" uid="uid://cyqkhf04kxsvh" path="res://lumi.tscn" id="1_eye1f"]
+[ext_resource type="PackedScene" uid="uid://bhr8kltq37533" path="res://hud.tscn" id="2_jqo2b"]
+[ext_resource type="PackedScene" uid="uid://be4kj3khl40fr" path="res://nivel_2.tscn" id="4_2q1oh"]
+[ext_resource type="Script" uid="uid://bqwm3aopplo3h" path="res://zona_transicion.gd" id="4_eye1f"]
+[ext_resource type="FontFile" uid="uid://tai58wdxnq7e" path="res://Handlee-Regular.ttf" id="6_q6eb2"]
+[ext_resource type="Script" uid="uid://b78ho8vj2e15x" path="res://pantalla_negra.gd" id="6_swon0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kfsbt"]
+size = Vector2(719, 65.59375)
+
+[node name="NivelPrueba" type="Node2D" unique_id=744234092]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1262834121]
+custom_minimum_size = Vector2(720, 1280)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 720.0
+offset_bottom = 1280.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("1_2q1oh")
+volume_db = -80.0
+autoplay = true
+expand = true
+loop = true
+
+[node name="Lumi" parent="." unique_id=925782345 instance=ExtResource("1_eye1f")]
+position = Vector2(360, 500)
+
+[node name="HUD" parent="." unique_id=1539810251 instance=ExtResource("2_jqo2b")]
+
+[node name="TextoTutorial" type="RichTextLabel" parent="HUD" unique_id=284325861]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -200.0
+offset_top = 250.0
+offset_right = 200.0
+offset_bottom = 336.0
+grow_horizontal = 2
+mouse_filter = 2
+theme_override_fonts/normal_font = ExtResource("6_q6eb2")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center][wave amp=50.0 freq=1.0]
+Usa el joystick para moverte[/wave][/center]"
+
+[node name="ZonaTransicion" type="Area2D" parent="." unique_id=1930070718]
+position = Vector2(360, 1260)
+script = ExtResource("4_eye1f")
+escena_destino = ExtResource("4_2q1oh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZonaTransicion" unique_id=77006325]
+shape = SubResource("RectangleShape2D_kfsbt")
+debug_color = Color(0.95089585, 0.18973902, 0.3005382, 0.07450981)
+
+[node name="CapaIntro" type="CanvasLayer" parent="." unique_id=1643721977]
+
+[node name="PantallaNegra" type="ColorRect" parent="CapaIntro" unique_id=1903466385]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+script = ExtResource("6_swon0")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CapaIntro/PantallaNegra" unique_id=1406830308]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -123.75
+offset_top = -54.75
+offset_right = 123.75
+offset_bottom = 54.75
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("6_q6eb2")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center][wave amp=50.0 freq=1.0]
+¿Dónde estoy?[/wave][/center]"
+
+[connection signal="body_entered" from="ZonaTransicion" to="ZonaTransicion" method="_on_body_entered"]

@@ -1,0 +1,99 @@
+[gd_scene format=3 uid="uid://d16dl66v74q6x"]
+
+[ext_resource type="Script" uid="uid://bw6eelctpg4dc" path="res://menu_principal.gd" id="1_gmcsc"]
+[ext_resource type="VideoStream" uid="uid://bxitpn5crkbyd" path="res://BG_Menu.ogv" id="2_611wp"]
+[ext_resource type="Texture2D" uid="uid://de5cjcnt8llgb" path="res://BTN_Jugar.png" id="3_ul6ys"]
+[ext_resource type="BitMap" uid="uid://dfaw4qld4dsoo" path="res://BOTON.png" id="4_a6518"]
+[ext_resource type="Texture2D" uid="uid://dbhlfr5vjdp3r" path="res://BTN_Presionado.png" id="4_yxm4i"]
+[ext_resource type="Texture2D" uid="uid://b2eiqrs0j3oq" path="res://Configuración_Icon.png" id="6_611wp"]
+[ext_resource type="BitMap" uid="uid://js8b0i5cj1nb" path="res://ICONC.png" id="7_xpioy"]
+[ext_resource type="Texture2D" uid="uid://c6f3yiahhxc4q" path="res://Informacion_Icon.png" id="8_kni6g"]
+[ext_resource type="BitMap" uid="uid://cwvgygml04qrv" path="res://ICONI.png" id="9_nx6e2"]
+
+[node name="MenuPrincipal" type="Control" unique_id=1770471864]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gmcsc")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=1764852550]
+custom_minimum_size = Vector2(720, 1280)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -360.0
+offset_top = -640.0
+offset_right = 360.0
+offset_bottom = 640.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+stream = ExtResource("2_611wp")
+autoplay = true
+expand = true
+loop = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1869964198]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = 110.0
+offset_right = 200.0
+offset_bottom = 410.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/separation = 40
+
+[node name="Jugar" type="TextureButton" parent="VBoxContainer" unique_id=1300994220]
+custom_maximum_size = Vector2(360, 150)
+layout_mode = 2
+size_flags_horizontal = 4
+texture_normal = ExtResource("3_ul6ys")
+texture_pressed = ExtResource("4_yxm4i")
+texture_click_mask = ExtResource("4_a6518")
+stretch_mode = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer" unique_id=1366755235]
+layout_mode = 2
+theme_override_constants/separation = 60
+alignment = 1
+
+[node name="Configuracion" type="TextureButton" parent="VBoxContainer/HBoxContainer" unique_id=479738903]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("6_611wp")
+texture_click_mask = ExtResource("7_xpioy")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Informacion" type="TextureButton" parent="VBoxContainer/HBoxContainer" unique_id=1384994624]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("8_kni6g")
+texture_click_mask = ExtResource("9_nx6e2")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="FadeNegro" type="ColorRect" parent="." unique_id=1098630576]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[connection signal="pressed" from="VBoxContainer/Jugar" to="." method="_on_jugar_pressed"]
