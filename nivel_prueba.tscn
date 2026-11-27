@@ -1,10 +1,11 @@
 [gd_scene format=3 uid="uid://c8egonsqe7yxp"]
 
-[ext_resource type="VideoStream" uid="uid://djbqt1v84a3pu" path="res://BG_1Nivel.ogv" id="1_2q1oh"]
+[ext_resource type="VideoStream" uid="uid://djbqt1v84a3pu" path="res://Videos/BG_1Nivel.ogv" id="1_2q1oh"]
 [ext_resource type="PackedScene" uid="uid://cyqkhf04kxsvh" path="res://lumi.tscn" id="1_eye1f"]
 [ext_resource type="PackedScene" uid="uid://bhr8kltq37533" path="res://hud.tscn" id="2_jqo2b"]
 [ext_resource type="PackedScene" uid="uid://be4kj3khl40fr" path="res://nivel_2.tscn" id="4_2q1oh"]
 [ext_resource type="Script" uid="uid://bqwm3aopplo3h" path="res://zona_transicion.gd" id="4_eye1f"]
+[ext_resource type="Script" uid="uid://wyo3gy33d0nu" path="res://flecha.gd" id="6_c482b"]
 [ext_resource type="FontFile" uid="uid://tai58wdxnq7e" path="res://Handlee-Regular.ttf" id="6_q6eb2"]
 [ext_resource type="Script" uid="uid://b78ho8vj2e15x" path="res://pantalla_negra.gd" id="6_swon0"]
 
@@ -43,12 +44,35 @@ offset_top = 250.0
 offset_right = 200.0
 offset_bottom = 336.0
 grow_horizontal = 2
+offset_transform_enabled = true
 mouse_filter = 2
 theme_override_fonts/normal_font = ExtResource("6_q6eb2")
 theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
 text = "[center][wave amp=50.0 freq=1.0]
 Usa el joystick para moverte[/wave][/center]"
+
+[node name="TextoJoystick" type="RichTextLabel" parent="HUD" unique_id=888255969]
+modulate = Color(1, 1, 1, 0)
+clip_contents = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -310.0
+offset_top = 900.0
+offset_right = 54.0
+offset_bottom = 986.0
+grow_horizontal = 2
+mouse_filter = 2
+theme_override_fonts/normal_font = ExtResource("6_q6eb2")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center][wave amp=50.0 freq=1.0]
+Joystick[/wave][/center]"
+
+[node name="Flecha" type="Polygon2D" parent="HUD/TextoJoystick" unique_id=1844531629]
+position = Vector2(100, 48)
+script = ExtResource("6_c482b")
 
 [node name="ZonaTransicion" type="Area2D" parent="." unique_id=1930070718]
 position = Vector2(360, 1260)

@@ -1,8 +1,9 @@
 extends Control
-
+ 
 @onready var fade_negro = $FadeNegro
-
+ 
 func _on_jugar_pressed() -> void:
+	Audio.sfx("clic_menu")
 	# 1. Hacemos que el telón negro se oscurezca suavemente en 1 segundo
 	var tween = get_tree().create_tween()
 	tween.tween_property(fade_negro, "modulate:a", 1.0, 1.0)

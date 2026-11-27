@@ -31,6 +31,11 @@ func _ready():
 	if texto_tutorial:
 		var tween_tut = get_tree().create_tween()
 		tween_tut.tween_property(texto_tutorial, "modulate:a", 1.0, 1.0)
+		
+	var texto_joystick = get_tree().current_scene.find_child("TextoJoystick", true, false)
+	if texto_joystick:
+		var tween_joy = get_tree().create_tween()
+		tween_joy.tween_property(texto_joystick, "modulate:a", 1.0, 1.0)
 	
 	# 7. Eliminamos la pantalla negra
 	queue_free()

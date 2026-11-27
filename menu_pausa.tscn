@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bgkh53gw4il6p"]
 
-[ext_resource type="Texture2D" uid="uid://dt4hka37x705a" path="res://MenuNivel_Icon.png" id="1_3ml7n"]
-[ext_resource type="BitMap" uid="uid://b4aat2nriify4" path="res://ICONM.png" id="2_tyo0u"]
+[ext_resource type="Texture2D" uid="uid://dt4hka37x705a" path="res://Elementos Visuales/Icons/MenuNivel_Icon.png" id="1_3ml7n"]
+[ext_resource type="BitMap" uid="uid://b4aat2nriify4" path="res://Elementos Visuales/colision/ICONM.png" id="2_tyo0u"]
 
 [node name="MenuPausa" type="CanvasLayer" unique_id=1280607243]
 visible = false

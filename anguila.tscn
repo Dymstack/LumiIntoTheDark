@@ -1,0 +1,273 @@
+[gd_scene format=3 uid="uid://b68olfqpafd6f"]
+
+[ext_resource type="Script" uid="uid://dc7hatdj3e3cv" path="res://anguila.gd" id="1_jyiqt"]
+[ext_resource type="Texture2D" uid="uid://c82a8osmdhijm" path="res://NPCs/Anguila/Anguila_000.png" id="2_hyxbc"]
+[ext_resource type="Texture2D" uid="uid://ud2jysuod812" path="res://NPCs/Anguila/Anguila_001.png" id="3_hcemk"]
+[ext_resource type="Texture2D" uid="uid://da132tblhblrd" path="res://NPCs/Anguila/Anguila_002.png" id="4_egnlw"]
+[ext_resource type="Texture2D" uid="uid://5bq1pc1hprlh" path="res://NPCs/Anguila/Anguila_003.png" id="5_eui4f"]
+[ext_resource type="Texture2D" uid="uid://da0ceqbamux3q" path="res://NPCs/Anguila/Anguila_004.png" id="6_po6jh"]
+[ext_resource type="Texture2D" uid="uid://dq45r3ast8wxu" path="res://NPCs/Anguila/Anguila_005.png" id="7_gnira"]
+[ext_resource type="Texture2D" uid="uid://c2wofxsyni74m" path="res://NPCs/Anguila/Anguila_006.png" id="8_3pmq4"]
+[ext_resource type="Texture2D" uid="uid://b7ifr5jrl4csm" path="res://NPCs/Anguila/Anguila_007.png" id="9_u76pp"]
+[ext_resource type="Texture2D" uid="uid://d2xudayel2qkf" path="res://NPCs/Anguila/Anguila_008.png" id="10_d7j8p"]
+[ext_resource type="Texture2D" uid="uid://bwc0rnmaj6b5g" path="res://NPCs/Anguila/Anguila_009.png" id="11_vrvhv"]
+[ext_resource type="Texture2D" uid="uid://di6f75poaee3o" path="res://NPCs/Anguila/Anguila_010.png" id="12_3ckox"]
+[ext_resource type="Texture2D" uid="uid://qf0vtwyx5dtd" path="res://NPCs/Anguila/Anguila_011.png" id="13_nqxmt"]
+[ext_resource type="Texture2D" uid="uid://dcscy05elm4k5" path="res://NPCs/Anguila/Anguila_012.png" id="14_cf1gv"]
+[ext_resource type="Texture2D" uid="uid://bsvbcd65slwiv" path="res://NPCs/Anguila/Anguila_013.png" id="15_efs6q"]
+[ext_resource type="Texture2D" uid="uid://bcp4j24dbw2mt" path="res://NPCs/Anguila/Anguila_014.png" id="16_8tped"]
+[ext_resource type="Texture2D" uid="uid://cbu7f85olbf6w" path="res://NPCs/Anguila/Anguila_015.png" id="17_6730y"]
+[ext_resource type="Texture2D" uid="uid://bxax5u40vqj6w" path="res://NPCs/Anguila/Anguila_016.png" id="18_bqdym"]
+[ext_resource type="Texture2D" uid="uid://chjhilw1st7nt" path="res://NPCs/Anguila/Anguila_017.png" id="19_4iyx8"]
+[ext_resource type="Texture2D" uid="uid://qgw8s5t7v06c" path="res://NPCs/Anguila/Anguila_018.png" id="20_lemvd"]
+[ext_resource type="Texture2D" uid="uid://d3bappulpqpfl" path="res://NPCs/Anguila/Anguila_019.png" id="21_wrhet"]
+[ext_resource type="Texture2D" uid="uid://83evhbc61nij" path="res://NPCs/Anguila/Anguila_020.png" id="22_a0kmx"]
+[ext_resource type="Texture2D" uid="uid://vkl7q11rjvkx" path="res://NPCs/Anguila/Anguila_021.png" id="23_0hpyr"]
+[ext_resource type="Texture2D" uid="uid://cqt1nypjombkn" path="res://NPCs/Anguila/Anguila_022.png" id="24_e6ksv"]
+[ext_resource type="Texture2D" uid="uid://qa6n60w68pn4" path="res://NPCs/Anguila/Anguila_023.png" id="25_4t0xl"]
+[ext_resource type="Texture2D" uid="uid://nx0ucn7b32en" path="res://NPCs/Anguila/Anguila_024.png" id="26_etyd7"]
+[ext_resource type="Texture2D" uid="uid://crvjqyl84cujg" path="res://NPCs/Anguila/Anguila_025.png" id="27_pq6i5"]
+[ext_resource type="Texture2D" uid="uid://doe5051ematfo" path="res://NPCs/Anguila/Anguila_026.png" id="28_ov72k"]
+[ext_resource type="Texture2D" uid="uid://d3i88qu7pg7m6" path="res://NPCs/Anguila/Anguila_027.png" id="29_ma2np"]
+[ext_resource type="Texture2D" uid="uid://b2vc5q84llvcj" path="res://NPCs/Anguila/Anguila_028.png" id="30_06hsk"]
+[ext_resource type="Texture2D" uid="uid://duf2ptd0ef4d2" path="res://NPCs/Anguila/Anguila_029.png" id="31_5itrh"]
+[ext_resource type="Texture2D" uid="uid://dlorj2roicoxj" path="res://NPCs/Anguila/Anguila_030.png" id="32_adv2q"]
+[ext_resource type="Texture2D" uid="uid://cvwltu62qgyf5" path="res://NPCs/Anguila/Anguila_031.png" id="33_1d4k8"]
+[ext_resource type="Texture2D" uid="uid://bblcuwam00byo" path="res://NPCs/Anguila/Anguila_032.png" id="34_j465s"]
+[ext_resource type="Texture2D" uid="uid://4laydu6w0jjf" path="res://NPCs/Anguila/Anguila_033.png" id="35_km8pn"]
+[ext_resource type="Texture2D" uid="uid://clirrkwpsopv8" path="res://NPCs/Anguila/Anguila_034.png" id="36_r5rnc"]
+[ext_resource type="Texture2D" uid="uid://cwsgtbcoo6shw" path="res://NPCs/Anguila/Anguila_035.png" id="37_8nhuq"]
+[ext_resource type="Texture2D" uid="uid://dl3ovidci41p7" path="res://NPCs/Anguila/Anguila_036.png" id="38_2knc8"]
+[ext_resource type="Texture2D" uid="uid://dtu4xtp12vs3r" path="res://NPCs/Anguila/Anguila_037.png" id="39_owr7t"]
+[ext_resource type="Texture2D" uid="uid://3m4iv31evm36" path="res://NPCs/Anguila/Anguila_038.png" id="40_rvn6r"]
+[ext_resource type="Texture2D" uid="uid://qwkg77dk3nm6" path="res://NPCs/Anguila/Anguila_039.png" id="41_d8c5w"]
+[ext_resource type="Texture2D" uid="uid://d3candb0wqa68" path="res://NPCs/Anguila/Anguila_040.png" id="42_nda2y"]
+[ext_resource type="Texture2D" uid="uid://dws3c1oqwhlbp" path="res://NPCs/Anguila/Anguila_041.png" id="43_s0n1v"]
+[ext_resource type="Texture2D" uid="uid://ed76iqw4ymi" path="res://NPCs/Anguila/Anguila_042.png" id="44_ffplr"]
+[ext_resource type="Texture2D" uid="uid://3x5jgt35w0sl" path="res://NPCs/Anguila/Anguila_043.png" id="45_jx3fk"]
+[ext_resource type="Texture2D" uid="uid://ekrisnqsk2ho" path="res://NPCs/Anguila/Anguila_044.png" id="46_l4j0k"]
+[ext_resource type="Texture2D" uid="uid://br36lskdug6wp" path="res://NPCs/Anguila/Anguila_045.png" id="47_gg2b1"]
+[ext_resource type="Texture2D" uid="uid://bkvvycg6mjjdk" path="res://NPCs/Anguila/Anguila_046.png" id="48_swuqu"]
+[ext_resource type="Texture2D" uid="uid://d3uxy4ko1gs8j" path="res://NPCs/Anguila/Anguila_047.png" id="49_m317d"]
+[ext_resource type="Texture2D" uid="uid://b03ml2rffjbq8" path="res://NPCs/Anguila/Anguila_048.png" id="50_bc174"]
+[ext_resource type="Texture2D" uid="uid://uhpxtxi11s0e" path="res://NPCs/Anguila/Anguila_049.png" id="51_pab3l"]
+[ext_resource type="Texture2D" uid="uid://cvnovm037g374" path="res://NPCs/Anguila/Anguila_050.png" id="52_vus2d"]
+[ext_resource type="Texture2D" uid="uid://cu63d1gl3qv4e" path="res://NPCs/Anguila/Anguila_051.png" id="53_ek0xs"]
+[ext_resource type="Texture2D" uid="uid://c0gluojl88gpj" path="res://NPCs/Anguila/Anguila_052.png" id="54_vajds"]
+[ext_resource type="Texture2D" uid="uid://dw2h3skqary7j" path="res://NPCs/Anguila/Anguila_053.png" id="55_plnuk"]
+[ext_resource type="Texture2D" uid="uid://cenj38llgum2d" path="res://NPCs/Anguila/Anguila_054.png" id="56_6lrmc"]
+[ext_resource type="Texture2D" uid="uid://4qxf5as7ou7j" path="res://NPCs/Anguila/Anguila_055.png" id="57_rdury"]
+[ext_resource type="Texture2D" uid="uid://8pbp5l0kgkm0" path="res://NPCs/Anguila/Anguila_056.png" id="58_pgshi"]
+[ext_resource type="Texture2D" uid="uid://cvt8hac0liwoq" path="res://NPCs/Anguila/Anguila_057.png" id="59_f571y"]
+[ext_resource type="Texture2D" uid="uid://b2k4r5r53fhsc" path="res://NPCs/Anguila/Anguila_058.png" id="60_hsi8r"]
+[ext_resource type="Texture2D" uid="uid://icjd0km8i67l" path="res://NPCs/Anguila/Anguila_059.png" id="61_p1t8s"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7vu4v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_hyxbc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_hcemk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_egnlw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_eui4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_po6jh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_gnira")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_3pmq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_u76pp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_d7j8p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vrvhv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_3ckox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nqxmt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_cf1gv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_efs6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_8tped")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_6730y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bqdym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_4iyx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_lemvd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_wrhet")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_a0kmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_0hpyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_e6ksv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_4t0xl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_etyd7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_pq6i5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ov72k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ma2np")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_06hsk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_5itrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_adv2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_1d4k8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_j465s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_km8pn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_r5rnc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_8nhuq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_2knc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_owr7t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_rvn6r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_d8c5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_nda2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_s0n1v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_ffplr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_jx3fk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_l4j0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_gg2b1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_swuqu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_m317d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_bc174")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_pab3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_vus2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_ek0xs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_vajds")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_plnuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_6lrmc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_rdury")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_pgshi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_f571y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_hsi8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_p1t8s")
+}],
+"loop": 1,
+"name": &"salir",
+"speed": 15.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bec64"]
+radius = 29.0
+height = 592.0
+
+[node name="Anguila" type="Area2D" unique_id=1586170852]
+script = ExtResource("1_jyiqt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1821628847]
+sprite_frames = SubResource("SpriteFrames_7vu4v")
+animation = &"salir"
+autoplay = "salir"
+frame_progress = 0.32638082
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=611587982]
+y_sort_enabled = true
+rotation = -1.5707964
+shape = SubResource("CapsuleShape2D_bec64")
+
+[node name="Timer" type="Timer" parent="." unique_id=771964524]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

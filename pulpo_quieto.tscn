@@ -1,0 +1,257 @@
+[gd_scene format=3 uid="uid://bnh6g6ucrfgws"]
+
+[ext_resource type="Texture2D" uid="uid://di7rcbachxiqa" path="res://NPCs/pulpo/Pulpo_002.png" id="1_cnc4h"]
+[ext_resource type="Script" uid="uid://c6r74rbd8jqof" path="res://pulpo_tentaculo.gd" id="1_p4tud"]
+[ext_resource type="Texture2D" uid="uid://b0yt32qhxvrt8" path="res://NPCs/pulpo/Pulpo_003.png" id="2_p4tud"]
+[ext_resource type="Texture2D" uid="uid://ce2n6sajlb8as" path="res://NPCs/pulpo/Pulpo_004.png" id="3_ndjfc"]
+[ext_resource type="Texture2D" uid="uid://dd7rjud5tce2f" path="res://NPCs/pulpo/Pulpo_005.png" id="4_08sec"]
+[ext_resource type="Texture2D" uid="uid://bk16o8w30g8hy" path="res://NPCs/pulpo/Pulpo_006.png" id="5_uy5ak"]
+[ext_resource type="Texture2D" uid="uid://dmy70fhngdq0m" path="res://NPCs/pulpo/Pulpo_007.png" id="6_6is6x"]
+[ext_resource type="Texture2D" uid="uid://y88x02hf50tx" path="res://NPCs/pulpo/Pulpo_008.png" id="7_3gcnq"]
+[ext_resource type="Texture2D" uid="uid://f7tv558h8ged" path="res://NPCs/pulpo/Pulpo_009.png" id="8_g526h"]
+[ext_resource type="Texture2D" uid="uid://bbxfcjkaybdkh" path="res://NPCs/pulpo/Pulpo_010.png" id="9_vprue"]
+[ext_resource type="Texture2D" uid="uid://budhfi6kcwknu" path="res://NPCs/pulpo/Pulpo_011.png" id="10_3o15f"]
+[ext_resource type="Texture2D" uid="uid://d3hgl64lalj2o" path="res://NPCs/pulpo/Pulpo_012.png" id="11_mtr10"]
+[ext_resource type="Texture2D" uid="uid://4i0lmlw8m334" path="res://NPCs/pulpo/Pulpo_013.png" id="12_mxsnc"]
+[ext_resource type="Texture2D" uid="uid://cspbu6u7mhryt" path="res://NPCs/pulpo/Pulpo_014.png" id="13_lbem3"]
+[ext_resource type="Texture2D" uid="uid://ck6ubgny4nrwb" path="res://NPCs/pulpo/Pulpo_015.png" id="14_5mhii"]
+[ext_resource type="Texture2D" uid="uid://dqpcr8rv76mwf" path="res://NPCs/pulpo/Pulpo_016.png" id="15_o5ip2"]
+[ext_resource type="Texture2D" uid="uid://ce6txi7hl600m" path="res://NPCs/pulpo/Pulpo_017.png" id="16_r5rtv"]
+[ext_resource type="Texture2D" uid="uid://b4yj3lcyb2piw" path="res://NPCs/pulpo/Pulpo_018.png" id="17_a3avf"]
+[ext_resource type="Texture2D" uid="uid://7j0h8lo65lai" path="res://NPCs/pulpo/Pulpo_019.png" id="18_7n0wm"]
+[ext_resource type="Texture2D" uid="uid://bjp2e5dfieoe1" path="res://NPCs/pulpo/Pulpo_021.png" id="19_yshmb"]
+[ext_resource type="Texture2D" uid="uid://0txktn1bkdok" path="res://NPCs/pulpo/Pulpo_022.png" id="20_5xndq"]
+[ext_resource type="Texture2D" uid="uid://b0lfh4yb7mp3m" path="res://NPCs/pulpo/Pulpo_023.png" id="21_v70fj"]
+[ext_resource type="Texture2D" uid="uid://b5u1f06dyxxmb" path="res://NPCs/pulpo/Pulpo_024.png" id="22_0ujbt"]
+[ext_resource type="Texture2D" uid="uid://ch7ieetw4x71a" path="res://NPCs/pulpo/Pulpo_025.png" id="23_um4om"]
+[ext_resource type="Texture2D" uid="uid://dfra5arevid8h" path="res://NPCs/pulpo/Pulpo_026.png" id="24_06pi0"]
+[ext_resource type="Texture2D" uid="uid://cpbehdhvgq6rd" path="res://NPCs/pulpo/Pulpo_027.png" id="25_yeeul"]
+[ext_resource type="Texture2D" uid="uid://c4cr5y5f68ff6" path="res://NPCs/pulpo/Pulpo_028.png" id="26_aodmt"]
+[ext_resource type="Texture2D" uid="uid://bfpgn58gx8c1l" path="res://NPCs/pulpo/Pulpo_029.png" id="27_qp12x"]
+[ext_resource type="Texture2D" uid="uid://iuli5ovbyan1" path="res://NPCs/pulpo/Pulpo_030.png" id="28_6k7ns"]
+[ext_resource type="Texture2D" uid="uid://38n8njwnbni4" path="res://NPCs/pulpo/Pulpo_031.png" id="29_wok4r"]
+[ext_resource type="Texture2D" uid="uid://cw7i02xier0bf" path="res://NPCs/pulpo/Pulpo_032.png" id="30_06n38"]
+[ext_resource type="Texture2D" uid="uid://d4nqtp04ho2y5" path="res://NPCs/pulpo/Pulpo_033.png" id="31_c6plv"]
+[ext_resource type="Texture2D" uid="uid://b85126m3r8npk" path="res://NPCs/pulpo/Pulpo_034.png" id="32_ott5a"]
+[ext_resource type="Texture2D" uid="uid://qn2refj3diyk" path="res://NPCs/pulpo/Pulpo_035.png" id="33_n6arb"]
+[ext_resource type="Texture2D" uid="uid://d1c4k2s3x83bg" path="res://NPCs/pulpo/Pulpo_036.png" id="34_sw7vf"]
+[ext_resource type="Texture2D" uid="uid://djs6owpgxmmrt" path="res://NPCs/pulpo/Pulpo_037.png" id="35_g2aoi"]
+[ext_resource type="Texture2D" uid="uid://ckse05k6q3v4p" path="res://NPCs/pulpo/Pulpo_038.png" id="36_yxdes"]
+[ext_resource type="Texture2D" uid="uid://d3aqikgnpr512" path="res://NPCs/pulpo/Pulpo_039.png" id="37_bjuiq"]
+[ext_resource type="Texture2D" uid="uid://e0ip6rb7kig8" path="res://NPCs/pulpo/Pulpo_040.png" id="38_2pytj"]
+[ext_resource type="Texture2D" uid="uid://bqcbtb3u3roev" path="res://NPCs/pulpo/Pulpo_041.png" id="39_0wtek"]
+[ext_resource type="Texture2D" uid="uid://wjmmvmohjbiu" path="res://NPCs/pulpo/Pulpo_042.png" id="40_hl3v8"]
+[ext_resource type="Texture2D" uid="uid://oul7qpy2jej1" path="res://NPCs/pulpo/Pulpo_043.png" id="41_g6dug"]
+[ext_resource type="Texture2D" uid="uid://dht43vop5tnn1" path="res://NPCs/pulpo/Pulpo_044.png" id="42_v66e7"]
+[ext_resource type="Texture2D" uid="uid://d3cftbg1wui7o" path="res://NPCs/pulpo/Pulpo_045.png" id="43_5hs4u"]
+[ext_resource type="Texture2D" uid="uid://cu0ktvlas2sxf" path="res://NPCs/pulpo/Pulpo_046.png" id="44_463ft"]
+[ext_resource type="Texture2D" uid="uid://f8dp70o1g8h1" path="res://NPCs/pulpo/Pulpo_047.png" id="45_hwwh4"]
+[ext_resource type="Texture2D" uid="uid://d3qai2buyth4c" path="res://NPCs/pulpo/Pulpo_048.png" id="46_yumxq"]
+[ext_resource type="Texture2D" uid="uid://c46cm7d46ae5r" path="res://NPCs/pulpo/Pulpo_049.png" id="47_ckono"]
+[ext_resource type="Texture2D" uid="uid://utodjogljuln" path="res://NPCs/pulpo/Pulpo_050.png" id="48_sf4ja"]
+[ext_resource type="Texture2D" uid="uid://bh4oapg36rbsk" path="res://NPCs/pulpo/Pulpo_051.png" id="49_xpogi"]
+[ext_resource type="Texture2D" uid="uid://cquymfx3d1njv" path="res://NPCs/pulpo/Pulpo_052.png" id="50_46um1"]
+[ext_resource type="Texture2D" uid="uid://e431b8c0jenp" path="res://NPCs/pulpo/Pulpo_053.png" id="51_4uuyy"]
+[ext_resource type="Texture2D" uid="uid://bn6um06xms0gf" path="res://NPCs/pulpo/Pulpo_054.png" id="52_lc4cx"]
+[ext_resource type="Texture2D" uid="uid://fafn31mg3egv" path="res://NPCs/pulpo/Pulpo_055.png" id="53_v6oov"]
+[ext_resource type="Texture2D" uid="uid://cf8dfhj0vu38r" path="res://NPCs/pulpo/Pulpo_056.png" id="54_8s5ri"]
+[ext_resource type="Texture2D" uid="uid://bks04yyeiy2ou" path="res://NPCs/pulpo/Pulpo_057.png" id="55_yuk5d"]
+[ext_resource type="Texture2D" uid="uid://c7cimkjm5ggxg" path="res://NPCs/pulpo/Pulpo_058.png" id="56_c7bpn"]
+[ext_resource type="Texture2D" uid="uid://b5e64xbvgwtsb" path="res://NPCs/pulpo/Pulpo_059.png" id="57_u1d0h"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kfsbt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cnc4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_p4tud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ndjfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_08sec")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_uy5ak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_6is6x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3gcnq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_g526h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vprue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_3o15f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_mtr10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_mxsnc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_lbem3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5mhii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_o5ip2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_r5rtv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_a3avf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_7n0wm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_yshmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_5xndq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_v70fj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_0ujbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_um4om")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_06pi0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_yeeul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_aodmt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_qp12x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_6k7ns")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_wok4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_06n38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_c6plv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ott5a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_n6arb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_sw7vf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_g2aoi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_yxdes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_bjuiq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_2pytj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_0wtek")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_hl3v8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_g6dug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_v66e7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_5hs4u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_463ft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_hwwh4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_yumxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_ckono")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_sf4ja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xpogi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_46um1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_4uuyy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_lc4cx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_v6oov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_8s5ri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_yuk5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_c7bpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_u1d0h")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Pulpo" type="Node2D" unique_id=1282706453]
+script = ExtResource("1_p4tud")
+
+[node name="Tentaculo" type="Node2D" parent="." unique_id=219301239]
+position = Vector2(35, 17)
+
+[node name="Linea" type="Line2D" parent="Tentaculo" unique_id=267958700]
+
+[node name="Area2D" type="Area2D" parent="Tentaculo" unique_id=1688220049]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tentaculo/Area2D" unique_id=2136355553]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=91225925]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_kfsbt")
+autoplay = "default"
+frame_progress = 0.47886223

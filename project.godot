@@ -15,9 +15,14 @@ run/main_scene="uid://d16dl66v74q6x"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="uid://cvuf1hoip8w1c"
 
+[audio]
+
+buses/default_bus_layout="uid://cb0an7og60oeh"
+
 [autoload]
 
 Global="*uid://dlh8fln1hslkg"
+Audio="*uid://c85eiv3bhj2dt"
 
 [display]
 
@@ -26,12 +31,17 @@ window/size/viewport_height=1280
 window/stretch/mode="canvas_items"
 window/handheld/orientation=1
 
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"

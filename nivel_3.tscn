@@ -1,17 +1,32 @@
 [gd_scene format=3 uid="uid://dpttbwvgvcgkt"]
 
-[ext_resource type="Texture2D" uid="uid://dsip8uh182lle" path="res://BG_Nivel3.png" id="1_5jc6x"]
+[ext_resource type="Script" uid="uid://ca1xyc5abfum4" path="res://nivel_3.gd" id="1_foow7"]
 [ext_resource type="PackedScene" uid="uid://cyqkhf04kxsvh" path="res://lumi.tscn" id="1_ol0td"]
 [ext_resource type="PackedScene" uid="uid://bhr8kltq37533" path="res://hud.tscn" id="2_ai75a"]
+[ext_resource type="VideoStream" uid="uid://lol8ytjalq1u" path="res://Videos/BGA_Nivel3.ogv" id="2_ol0td"]
+[ext_resource type="PackedScene" uid="uid://bnh6g6ucrfgws" path="res://pulpo_quieto.tscn" id="5_ol0td"]
+[ext_resource type="PackedScene" uid="uid://b7lvcdjkqhvte" path="res://caballito.tscn" id="6_ai75a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kfsbt"]
+size = Vector2(675, 38)
+
+[sub_resource type="Curve2D" id="Curve2D_1col5"]
+_data = {
+"points": PackedVector2Array(-7.300529, 13.547373, 7.300529, -13.547373, 688, 1151, 6.6607914, 6.9618454, -6.6607914, -6.9618454, 688, 1122, 9.784213, 2.6718445, -9.784213, -2.6718445, 665, 1112, 11.251846, 8.391844, -11.251846, -8.391844, 649, 1105, 12.192636, 0.75263214, -12.192636, -0.75263214, 606, 1078, 5.531843, -9.483162, -5.531843, 9.483162, 567, 1104, 5.005001, -11.477634, -5.005001, 11.477634, 532, 1144, -12.531319, -6.961844, 12.531319, 6.961844, 547, 1196, -12.493689, -2.220264, 12.493689, 2.220264, 602, 1224, -3.7255268, 13.961321, 3.7255268, -13.961321, 688, 1151)
+}
+point_count = 10
 
 [node name="Nivel3" type="Node2D" unique_id=472312449]
+script = ExtResource("1_foow7")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1344709118]
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=544925007]
 offset_right = 720.0
 offset_bottom = 1280.0
-texture = ExtResource("1_5jc6x")
-expand_mode = 1
-stretch_mode = 6
+mouse_filter = 2
+stream = ExtResource("2_ol0td")
+autoplay = true
+expand = true
+loop = true
 
 [node name="Lumi" parent="." unique_id=925782345 instance=ExtResource("1_ol0td")]
 position = Vector2(360, 70)
@@ -28,5 +43,25 @@ polygon = PackedVector2Array(-204.46573, -275.31696, -189.46573, -271.31696, -17
 [node name="RocaDerecha" type="CollisionPolygon2D" parent="StaticBody2D" unique_id=743800074]
 build_mode = 1
 polygon = PackedVector2Array(720, 763, 716, 765, 711, 770, 703, 774, 701, 779, 696, 782, 687, 793, 677, 796, 672, 798, 663, 799, 661, 801, 659, 803, 649, 804, 648, 807, 642, 808, 638, 812, 635, 815, 635, 822, 632, 824, 631, 831, 626, 833, 616, 844, 604, 846, 602, 850, 596, 851, 595, 852, 592, 852, 590, 856, 585, 856, 578, 862, 575, 868, 574, 897, 571, 901, 566, 901, 561, 909, 558, 908, 552, 913, 545, 913, 543, 911, 536, 911, 535, 914, 525, 914, 522, 915, 520, 918, 518, 918, 515, 921, 510, 922, 502, 923, 499, 926, 496, 927, 489, 932, 485, 938, 484, 956, 482, 959, 480, 962, 480, 968, 476, 968, 473, 970, 470, 970, 460, 979, 461, 981, 456, 983, 453, 988, 448, 994, 448, 998, 443, 1001, 438, 1002, 421, 1015, 421, 1027, 423, 1029, 424, 1038, 428, 1043, 428, 1049, 429, 1052, 433, 1057, 433, 1061, 438, 1065, 437, 1069, 439, 1074, 439, 1080, 449, 1094, 450, 1099, 448, 1100, 449, 1109, 451, 1109, 451, 1115, 455, 1117, 461, 1128, 464, 1133, 469, 1137, 470, 1142, 481, 1154, 483, 1157, 482, 1159, 485, 1163, 485, 1174, 489, 1179, 488, 1190, 491, 1194, 493, 1197, 493, 1201, 495, 1207, 499, 1212, 503, 1223, 522, 1230, 535, 1240, 527, 1252, 515, 1261, 511, 1260, 510, 1264, 505, 1266, 500, 1268, 496, 1272, 492, 1280, 720, 1280)
+
+[node name="ZonaFinNivel" type="Area2D" parent="." unique_id=1488489900]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZonaFinNivel" unique_id=961316307]
+position = Vector2(358.5, 1271)
+shape = SubResource("RectangleShape2D_kfsbt")
+
+[node name="Pulpo" parent="." unique_id=1864791532 instance=ExtResource("5_ol0td")]
+position = Vector2(123, 807.00006)
+rotation = 0.14660765
+scale = Vector2(0.8, 0.8)
+
+[node name="RutaCaballito" type="Path2D" parent="." unique_id=359103636]
+position = Vector2(-24, -413)
+curve = SubResource("Curve2D_1col5")
+
+[node name="Caballito" parent="RutaCaballito" unique_id=35575839 instance=ExtResource("6_ai75a")]
+position = Vector2(688, 1151)
+
+[connection signal="body_entered" from="ZonaFinNivel" to="." method="_on_zona_fin_nivel_body_entered"]
 
 [editable path="Lumi"]

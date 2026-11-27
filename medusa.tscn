@@ -1,0 +1,258 @@
+[gd_scene format=3 uid="uid://cayjanrlognob"]
+
+[ext_resource type="Script" uid="uid://cwlbdegifi00j" path="res://medusa.gd" id="1_kl5so"]
+[ext_resource type="Texture2D" uid="uid://c57ej7o1mau3r" path="res://NPCs/Medusa/Medusa_001.png" id="2_4i6jq"]
+[ext_resource type="Texture2D" uid="uid://nqsxkt82wjtg" path="res://NPCs/Medusa/Medusa_002.png" id="3_ymhkc"]
+[ext_resource type="Texture2D" uid="uid://bmeoq3pib88w6" path="res://NPCs/Medusa/Medusa_003.png" id="4_ws360"]
+[ext_resource type="Texture2D" uid="uid://86tibhj4jpe6" path="res://NPCs/Medusa/Medusa_004.png" id="5_jc07j"]
+[ext_resource type="Texture2D" uid="uid://dle2ea1dm5f6c" path="res://NPCs/Medusa/Medusa_005.png" id="6_phe07"]
+[ext_resource type="Texture2D" uid="uid://cwkb0wiimidbc" path="res://NPCs/Medusa/Medusa_006.png" id="7_th5h6"]
+[ext_resource type="Texture2D" uid="uid://bf5g3sdq4ey0d" path="res://NPCs/Medusa/Medusa_007.png" id="8_ciuhg"]
+[ext_resource type="Texture2D" uid="uid://n54jeqyi4eao" path="res://NPCs/Medusa/Medusa_008.png" id="9_brdvk"]
+[ext_resource type="Texture2D" uid="uid://cvvntr4a42nqv" path="res://NPCs/Medusa/Medusa_009.png" id="10_c8fkj"]
+[ext_resource type="Texture2D" uid="uid://bvioy02qcnwio" path="res://NPCs/Medusa/Medusa_010.png" id="11_n8ch2"]
+[ext_resource type="Texture2D" uid="uid://dvh8mycgijds7" path="res://NPCs/Medusa/Medusa_011.png" id="12_sbfk5"]
+[ext_resource type="Texture2D" uid="uid://bwq4v02xluvq8" path="res://NPCs/Medusa/Medusa_012.png" id="13_mwlmg"]
+[ext_resource type="Texture2D" uid="uid://c8f6p5hrnl83b" path="res://NPCs/Medusa/Medusa_013.png" id="14_ahw4v"]
+[ext_resource type="Texture2D" uid="uid://bo7x2n3m2xyaw" path="res://NPCs/Medusa/Medusa_014.png" id="15_bvefl"]
+[ext_resource type="Texture2D" uid="uid://drb6i25kjnyw8" path="res://NPCs/Medusa/Medusa_015.png" id="16_58f1n"]
+[ext_resource type="Texture2D" uid="uid://cfkilrx1pkj6b" path="res://NPCs/Medusa/Medusa_016.png" id="17_7x1md"]
+[ext_resource type="Texture2D" uid="uid://bqp25up32snkq" path="res://NPCs/Medusa/Medusa_017.png" id="18_cw3y1"]
+[ext_resource type="Texture2D" uid="uid://cldoxe0wqmfyn" path="res://NPCs/Medusa/Medusa_018.png" id="19_u0cmi"]
+[ext_resource type="Texture2D" uid="uid://d12md4lni2s0n" path="res://NPCs/Medusa/Medusa_019.png" id="20_web7d"]
+[ext_resource type="Texture2D" uid="uid://b7cl115nffbtb" path="res://NPCs/Medusa/Medusa_020.png" id="21_vljts"]
+[ext_resource type="Texture2D" uid="uid://b24xcno8j1113" path="res://NPCs/Medusa/Medusa_021.png" id="22_nmv8t"]
+[ext_resource type="Texture2D" uid="uid://8is1htj1xew0" path="res://NPCs/Medusa/Medusa_022.png" id="23_6bbpi"]
+[ext_resource type="Texture2D" uid="uid://c12jcwcq1285u" path="res://NPCs/Medusa/Medusa_023.png" id="24_ievha"]
+[ext_resource type="Texture2D" uid="uid://csrf0av1fkcbl" path="res://NPCs/Medusa/Medusa_024.png" id="25_o5l5s"]
+[ext_resource type="Texture2D" uid="uid://dq12krtma0vqf" path="res://NPCs/Medusa/Medusa_025.png" id="26_ik674"]
+[ext_resource type="Texture2D" uid="uid://dfvy01t46v4up" path="res://NPCs/Medusa/Medusa_026.png" id="27_qmxfn"]
+[ext_resource type="Texture2D" uid="uid://wxppeb0byyee" path="res://NPCs/Medusa/Medusa_027.png" id="28_ahihe"]
+[ext_resource type="Texture2D" uid="uid://yetfco0p4jhj" path="res://NPCs/Medusa/Medusa_028.png" id="29_rh6md"]
+[ext_resource type="Texture2D" uid="uid://b1fmgyip63f04" path="res://NPCs/Medusa/Medusa_029.png" id="30_73kux"]
+[ext_resource type="Texture2D" uid="uid://bmfb5nr7e5am8" path="res://NPCs/Medusa/Medusa_030.png" id="31_kth5i"]
+[ext_resource type="Texture2D" uid="uid://dknpf6mreeqre" path="res://NPCs/Medusa/Medusa_031.png" id="32_jd85e"]
+[ext_resource type="Texture2D" uid="uid://ddcd0cplv5ovj" path="res://NPCs/Medusa/Medusa_032.png" id="33_f0l3s"]
+[ext_resource type="Texture2D" uid="uid://2jf42l6tsgeh" path="res://NPCs/Medusa/Medusa_033.png" id="34_rqq6b"]
+[ext_resource type="Texture2D" uid="uid://dxmpw2s380xu8" path="res://NPCs/Medusa/Medusa_034.png" id="35_bglsh"]
+[ext_resource type="Texture2D" uid="uid://cie3pfo2b2aqv" path="res://NPCs/Medusa/Medusa_035.png" id="36_fhb1g"]
+[ext_resource type="Texture2D" uid="uid://ckesfursvjrtb" path="res://NPCs/Medusa/Medusa_036.png" id="37_ve8b7"]
+[ext_resource type="Texture2D" uid="uid://b8olfxl4vjrxi" path="res://NPCs/Medusa/Medusa_037.png" id="38_prx0b"]
+[ext_resource type="Texture2D" uid="uid://bh6yvx0givebj" path="res://NPCs/Medusa/Medusa_038.png" id="39_veieb"]
+[ext_resource type="Texture2D" uid="uid://dvtpw10uiodo5" path="res://NPCs/Medusa/Medusa_039.png" id="40_1xohc"]
+[ext_resource type="Texture2D" uid="uid://cd1hgk6ey3555" path="res://NPCs/Medusa/Medusa_040.png" id="41_36nsu"]
+[ext_resource type="Texture2D" uid="uid://cnycitv0h632r" path="res://NPCs/Medusa/Medusa_041.png" id="42_t8j6b"]
+[ext_resource type="Texture2D" uid="uid://brsm50psvynin" path="res://NPCs/Medusa/Medusa_042.png" id="43_v22qv"]
+[ext_resource type="Texture2D" uid="uid://dmqi0rhvkers" path="res://NPCs/Medusa/Medusa_043.png" id="44_a4rk6"]
+[ext_resource type="Texture2D" uid="uid://cwg207rb08gog" path="res://NPCs/Medusa/Medusa_044.png" id="45_2m86k"]
+[ext_resource type="Texture2D" uid="uid://dgk4dsxqirg8" path="res://NPCs/Medusa/Medusa_045.png" id="46_tjx4o"]
+[ext_resource type="Texture2D" uid="uid://coitvgrxok1ys" path="res://NPCs/Medusa/Medusa_046.png" id="47_glqx4"]
+[ext_resource type="Texture2D" uid="uid://dyexhd8ygawn7" path="res://NPCs/Medusa/Medusa_047.png" id="48_k0ovv"]
+[ext_resource type="Texture2D" uid="uid://cox3o3xxquauk" path="res://NPCs/Medusa/Medusa_048.png" id="49_a35st"]
+[ext_resource type="Texture2D" uid="uid://c3m5v4b7r03hq" path="res://NPCs/Medusa/Medusa_049.png" id="50_pakoq"]
+[ext_resource type="Texture2D" uid="uid://butku0ag2tg5e" path="res://NPCs/Medusa/Medusa_050.png" id="51_u8ot4"]
+[ext_resource type="Texture2D" uid="uid://dnery4m636ugi" path="res://NPCs/Medusa/Medusa_051.png" id="52_kajf3"]
+[ext_resource type="Texture2D" uid="uid://b8hnx03gy2lq7" path="res://NPCs/Medusa/Medusa_052.png" id="53_dxtcg"]
+[ext_resource type="Texture2D" uid="uid://dsqn248ikgmv4" path="res://NPCs/Medusa/Medusa_053.png" id="54_gwbad"]
+[ext_resource type="Texture2D" uid="uid://d2p4nw246hfbi" path="res://NPCs/Medusa/Medusa_054.png" id="55_d3vys"]
+[ext_resource type="Texture2D" uid="uid://c0bijbst0256o" path="res://NPCs/Medusa/Medusa_055.png" id="56_aesfs"]
+[ext_resource type="Texture2D" uid="uid://ct5aww0wq55q8" path="res://NPCs/Medusa/Medusa_056.png" id="57_6scn5"]
+[ext_resource type="Texture2D" uid="uid://lpj80lmcxsm6" path="res://NPCs/Medusa/Medusa_057.png" id="58_4474k"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kfsbt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_4i6jq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ymhkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ws360")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_jc07j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_phe07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_th5h6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ciuhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_brdvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_c8fkj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_n8ch2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_sbfk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_mwlmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ahw4v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_bvefl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_58f1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_7x1md")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_cw3y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_u0cmi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_web7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_vljts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_nmv8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_6bbpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_ievha")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_o5l5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ik674")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_qmxfn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ahihe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_rh6md")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_73kux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_kth5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_jd85e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_f0l3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_rqq6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_bglsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_fhb1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_ve8b7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_prx0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_veieb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_1xohc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_36nsu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_t8j6b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_v22qv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_a4rk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_2m86k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_tjx4o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_glqx4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_k0ovv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_a35st")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_pakoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_u8ot4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_kajf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_dxtcg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_gwbad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_d3vys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_aesfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_6scn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_4474k")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 18.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kfsbt"]
+radius = 73.0
+height = 150.0
+
+[node name="Medusa" type="Node2D" unique_id=164761525]
+script = ExtResource("1_kl5so")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1768168193]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_kfsbt")
+autoplay = "default"
+frame_progress = 0.78663653
+offset = Vector2(0, 80)
+
+[node name="AreaDano" type="Area2D" parent="." unique_id=1746661517]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaDano" unique_id=346876792]
+shape = SubResource("CapsuleShape2D_kfsbt")

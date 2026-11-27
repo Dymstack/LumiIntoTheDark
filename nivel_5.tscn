@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://cliw1mwq4cgtm"]
+
+[ext_resource type="Script" uid="uid://lfplbugbl04w" path="res://laberinto.gd" id="1_7cvk6"]
+[ext_resource type="PackedScene" uid="uid://cyqkhf04kxsvh" path="res://lumi.tscn" id="2_7cvk6"]
+[ext_resource type="VideoStream" uid="uid://olsywrhd36r6" path="res://Videos/BGA_Nivel5.ogv" id="2_a817w"]
+[ext_resource type="PackedScene" uid="uid://bhr8kltq37533" path="res://hud.tscn" id="3_a817w"]
+[ext_resource type="Script" uid="uid://b7grutiabm0by" path="res://zona_salida.gd" id="5_a817w"]
+[ext_resource type="PackedScene" uid="uid://62it43ts0a58" path="res://nivel_final.tscn" id="6_3sr7g"]
+[ext_resource type="PackedScene" uid="uid://cayjanrlognob" path="res://medusa.tscn" id="7_q2vqv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3sr7g"]
+size = Vector2(721, 29)
+
+[node name="Nivel5" type="Node2D" unique_id=186190190]
+script = ExtResource("1_7cvk6")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=114755762]
+offset_right = 720.0
+offset_bottom = 1280.0
+mouse_filter = 2
+stream = ExtResource("2_a817w")
+autoplay = true
+expand = true
+loop = true
+
+[node name="Lumi" parent="." unique_id=925782345 instance=ExtResource("2_7cvk6")]
+position = Vector2(360, 80)
+
+[node name="HUD" parent="." unique_id=1539810251 instance=ExtResource("3_a817w")]
+
+[node name="Piedras" type="StaticBody2D" parent="." unique_id=775233368]
+
+[node name="Piedra1" type="CollisionPolygon2D" parent="Piedras" unique_id=1216749264]
+position = Vector2(-3.0000005, -2.238713)
+scale = Vector2(0.772613, 0.7778414)
+polygon = PackedVector2Array(289, 0, 278, 15, 259, 27, 244, 35, 235, 42, 229, 59, 227, 67, 221, 73, 225, 91, 230, 100, 236, 120, 242, 134, 252, 158, 256, 170, 266, 195, 276, 225, 284, 245, 288, 260, 286, 275, 279, 281, 267, 286, 254, 293, 248, 304, 232, 304, 216, 309, 212, 322, 210, 334, 205, 343, 196, 350, 183, 362, 171, 364, 144, 382, 143, 389, 140, 396, 132, 398, 124, 399, 111, 402, 105, 402, 99, 409, 92, 415, 83, 416, 72, 417, 61, 414, 53, 412, 45, 420, 33, 424, 22, 437, 23, 443, 21, 449, 20, 453, 17, 458, 13, 462, 6, 466, 0, 468, 0, 0)
+
+[node name="Piedra2" type="CollisionPolygon2D" parent="Piedras" unique_id=738589319]
+position = Vector2(724.1141, -2.3476872)
+scale = Vector2(0.77760625, 0.77661353)
+polygon = PackedVector2Array(-286, 0, -270, 23, -268, 56, -257, 68, -237, 83, -229, 88, -222, 89, -218, 97, -203, 102, -201, 103, -198, 116, -196, 126, -192, 132, -220, 103, -228, 136, -230, 159, -222, 171, -213, 195, -219, 214, -223, 230, -231, 236, -230, 249, -236, 259, -246, 269, -248, 281, -257, 302, -259, 320, -256, 329, -221, 347, -216, 349, -209, 357, -167, 363, -155, 372, -142, 372, -136, 379, -127, 379, -124, 381, -116, 401, -110, 406, -104, 413, -97, 417, -85, 419, -73, 420, -69, 419, -66, 426, -55, 427, -48, 435, -43, 434, -34, 436, -26, 441, 0, 453, 0, 1)
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=1308555045]
+color = Color(0.047058824, 0.0627451, 0.11764706, 1)
+
+[node name="ZonaSalida" type="Area2D" parent="." unique_id=103579822]
+position = Vector2(360, 1250)
+script = ExtResource("5_a817w")
+escena_destino = ExtResource("6_3sr7g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZonaSalida" unique_id=48663397]
+position = Vector2(-0.5, 16.5)
+shape = SubResource("RectangleShape2D_3sr7g")
+
+[node name="Medusa" parent="." unique_id=164761525 instance=ExtResource("7_q2vqv")]
+position = Vector2(520, 450)
+scale = Vector2(0.8, 0.8)
+
+[node name="Medusa2" parent="." unique_id=907257413 instance=ExtResource("7_q2vqv")]
+position = Vector2(150, 500)
+tamano = 1
+
+[node name="Medusa3" parent="." unique_id=1284053196 instance=ExtResource("7_q2vqv")]
+position = Vector2(600, 950)
+scale = Vector2(0.6, 0.6)
+tamano = 1
+
+[node name="Medusa4" parent="." unique_id=719118374 instance=ExtResource("7_q2vqv")]
+position = Vector2(430, 900)
+tamano = 2
+
+[node name="Medusa5" parent="." unique_id=1146705863 instance=ExtResource("7_q2vqv")]
+position = Vector2(100, 1090)
+scale = Vector2(0.4, 0.4)
+
+[connection signal="body_entered" from="ZonaSalida" to="ZonaSalida" method="_on_body_entered"]

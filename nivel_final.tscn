@@ -1,0 +1,104 @@
+[gd_scene format=3 uid="uid://62it43ts0a58"]
+
+[ext_resource type="Script" uid="uid://3xkfumqvfbgb" path="res://nivel_final.gd" id="1_wrsmm"]
+[ext_resource type="PackedScene" uid="uid://cayjanrlognob" path="res://medusa.tscn" id="2_qymhg"]
+[ext_resource type="VideoStream" uid="uid://bcf3ia50nauvq" path="res://Videos/BGA_Final.ogv" id="2_wrsmm"]
+[ext_resource type="PackedScene" uid="uid://cyqkhf04kxsvh" path="res://lumi.tscn" id="3_qymhg"]
+[ext_resource type="PackedScene" uid="uid://bhr8kltq37533" path="res://hud.tscn" id="4_tusm5"]
+[ext_resource type="FontFile" uid="uid://tai58wdxnq7e" path="res://Handlee-Regular.ttf" id="5_cj3rq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kfsbt"]
+size = Vector2(724, 20)
+
+[node name="NivelFinal" type="Node2D" unique_id=1295040414]
+script = ExtResource("1_wrsmm")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="." unique_id=584730149]
+offset_right = 720.0
+offset_bottom = 1280.0
+mouse_filter = 2
+stream = ExtResource("2_wrsmm")
+autoplay = true
+expand = true
+loop = true
+
+[node name="Lumi" parent="." unique_id=925782345 instance=ExtResource("3_qymhg")]
+position = Vector2(360, 70)
+
+[node name="HUD" parent="." unique_id=1539810251 instance=ExtResource("4_tusm5")]
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=369183046]
+color = Color(0.047058824, 0.0627451, 0.11764706, 1)
+
+[node name="ZonaCinematica" type="Area2D" parent="." unique_id=986675115]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ZonaCinematica" unique_id=1037644278]
+position = Vector2(360, 640)
+shape = SubResource("RectangleShape2D_kfsbt")
+
+[node name="Fundido" type="CanvasLayer" parent="." unique_id=630248114]
+layer = 10
+
+[node name="Negro" type="ColorRect" parent="Fundido" unique_id=1952233867]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Texto" type="RichTextLabel" parent="Fundido" unique_id=187697504]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -144.0
+offset_top = -59.0
+offset_right = 154.75
+offset_bottom = 50.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("5_cj3rq")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center][wave amp=50.0 freq=1.0]
+Finalmente en casa...[/wave][/center]"
+
+[node name="Creditos" type="RichTextLabel" parent="Fundido" unique_id=1539128714]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -120.0
+offset_right = 300.0
+offset_bottom = 184.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("5_cj3rq")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+text = "[center]Este juego fue elaborado por
+
+Margarita Berver Bautista
+y
+Dulce Daniela Aguilar Aviña
+
+¡Gracias por jugar![/center]"
+
+[node name="Medusa" parent="." unique_id=164761525 instance=ExtResource("2_qymhg")]
+position = Vector2(119, 461)
+decorativa = true
+
+[node name="Medusa2" parent="." unique_id=2012845738 instance=ExtResource("2_qymhg")]
+position = Vector2(600, 100)
+scale = Vector2(0.8, 0.8)
+decorativa = true
+
+[node name="Medusa3" parent="." unique_id=1905123671 instance=ExtResource("2_qymhg")]
+position = Vector2(83, 356)
+scale = Vector2(0.5, 0.5)
+decorativa = true

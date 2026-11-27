@@ -1,0 +1,229 @@
+[gd_scene format=3 uid="uid://b7lvcdjkqhvte"]
+
+[ext_resource type="Script" uid="uid://brl7l0y1oryal" path="res://caballito.gd" id="1_enbqf"]
+[ext_resource type="Texture2D" uid="uid://b2jvd1xygco66" path="res://NPCs/caballito/Caballito_001.png" id="3_fxtgy"]
+[ext_resource type="Texture2D" uid="uid://b2gm41twouxm2" path="res://NPCs/caballito/Caballito_005.png" id="7_a5hl4"]
+[ext_resource type="Texture2D" uid="uid://bk7vwk8012g8r" path="res://NPCs/caballito/Caballito_006.png" id="8_3osp4"]
+[ext_resource type="Texture2D" uid="uid://c66efdghfpf23" path="res://NPCs/caballito/Caballito_007.png" id="9_vuksj"]
+[ext_resource type="Texture2D" uid="uid://cxi444mp7owwh" path="res://NPCs/caballito/Caballito_008.png" id="10_ragvf"]
+[ext_resource type="Texture2D" uid="uid://ctp8l1naait20" path="res://NPCs/caballito/Caballito_009.png" id="11_p77i8"]
+[ext_resource type="Texture2D" uid="uid://cyxgcuh4e8j1x" path="res://NPCs/caballito/Caballito_010.png" id="12_jpcv1"]
+[ext_resource type="Texture2D" uid="uid://bp2kbl71uhv2y" path="res://NPCs/caballito/Caballito_011.png" id="13_3x1hh"]
+[ext_resource type="Texture2D" uid="uid://be4si6kenkcar" path="res://NPCs/caballito/Caballito_012.png" id="14_y024t"]
+[ext_resource type="Texture2D" uid="uid://nm7erl62nls2" path="res://NPCs/caballito/Caballito_013.png" id="15_nq23l"]
+[ext_resource type="Texture2D" uid="uid://oc56cyall0dd" path="res://NPCs/caballito/Caballito_014.png" id="16_pjfhy"]
+[ext_resource type="Texture2D" uid="uid://dmvxqr2vwp8hk" path="res://NPCs/caballito/Caballito_015.png" id="17_fd0ca"]
+[ext_resource type="Texture2D" uid="uid://b63dforw7vfue" path="res://NPCs/caballito/Caballito_016.png" id="18_fgbkl"]
+[ext_resource type="Texture2D" uid="uid://e5648qfyivn8" path="res://NPCs/caballito/Caballito_017.png" id="19_l580t"]
+[ext_resource type="Texture2D" uid="uid://txjyo42mgjwy" path="res://NPCs/caballito/Caballito_018.png" id="20_bitgk"]
+[ext_resource type="Texture2D" uid="uid://c05odo7yxet01" path="res://NPCs/caballito/Caballito_019.png" id="21_d0pj0"]
+[ext_resource type="Texture2D" uid="uid://dmltxiqswcdey" path="res://NPCs/caballito/Caballito_020.png" id="22_4w82n"]
+[ext_resource type="Texture2D" uid="uid://bxihee5rr2352" path="res://NPCs/caballito/Caballito_021.png" id="23_a0mei"]
+[ext_resource type="Texture2D" uid="uid://byuw84lx7085o" path="res://NPCs/caballito/Caballito_022.png" id="24_n2sto"]
+[ext_resource type="Texture2D" uid="uid://c13ayjkek7tqs" path="res://NPCs/caballito/Caballito_023.png" id="25_d1bj2"]
+[ext_resource type="Texture2D" uid="uid://ddp54t5t44umo" path="res://NPCs/caballito/Caballito_024.png" id="26_fxvrp"]
+[ext_resource type="Texture2D" uid="uid://d1xlpjwnnh81r" path="res://NPCs/caballito/Caballito_025.png" id="27_mlqrq"]
+[ext_resource type="Texture2D" uid="uid://tsvmnvn0b8ep" path="res://NPCs/caballito/Caballito_026.png" id="28_cx7n2"]
+[ext_resource type="Texture2D" uid="uid://bqiiciafthfa6" path="res://NPCs/caballito/Caballito_027.png" id="29_myfeo"]
+[ext_resource type="Texture2D" uid="uid://dlj54xjbqkt71" path="res://NPCs/caballito/Caballito_028.png" id="30_2aht4"]
+[ext_resource type="Texture2D" uid="uid://bhcov1gemofma" path="res://NPCs/caballito/Caballito_029.png" id="31_nr2xy"]
+[ext_resource type="Texture2D" uid="uid://c32tnw0sncm4i" path="res://NPCs/caballito/Caballito_030.png" id="32_t163t"]
+[ext_resource type="Texture2D" uid="uid://b0pxjquj3s12l" path="res://NPCs/caballito/Caballito_031.png" id="33_a01ii"]
+[ext_resource type="Texture2D" uid="uid://fj4odx15dcel" path="res://NPCs/caballito/Caballito_032.png" id="34_6elbs"]
+[ext_resource type="Texture2D" uid="uid://xiavxcucw85m" path="res://NPCs/caballito/Caballito_033.png" id="35_l2meg"]
+[ext_resource type="Texture2D" uid="uid://dem8vmhrbg6ws" path="res://NPCs/caballito/Caballito_034.png" id="36_q7vuh"]
+[ext_resource type="Texture2D" uid="uid://dcyoa476y4swq" path="res://NPCs/caballito/Caballito_035.png" id="37_30otp"]
+[ext_resource type="Texture2D" uid="uid://cuw500le4qs5d" path="res://NPCs/caballito/Caballito_036.png" id="38_h7sq6"]
+[ext_resource type="Texture2D" uid="uid://d2xtuufukjxu1" path="res://NPCs/caballito/Caballito_037.png" id="39_xyv44"]
+[ext_resource type="Texture2D" uid="uid://c640queikj8ti" path="res://NPCs/caballito/Caballito_038.png" id="40_xhqr4"]
+[ext_resource type="Texture2D" uid="uid://doce2ovsvfp1b" path="res://NPCs/caballito/Caballito_039.png" id="41_o7uox"]
+[ext_resource type="Texture2D" uid="uid://d1u7c57j1mxi1" path="res://NPCs/caballito/Caballito_040.png" id="42_82p74"]
+[ext_resource type="Texture2D" uid="uid://4kqa4hde73ej" path="res://NPCs/caballito/Caballito_041.png" id="43_baxa6"]
+[ext_resource type="Texture2D" uid="uid://ck8kttkq1wl8r" path="res://NPCs/caballito/Caballito_042.png" id="44_vl66h"]
+[ext_resource type="Texture2D" uid="uid://cvtyolbmh3oee" path="res://NPCs/caballito/Caballito_043.png" id="45_hjixl"]
+[ext_resource type="Texture2D" uid="uid://74b7hdee2xce" path="res://NPCs/caballito/Caballito_044.png" id="46_m25en"]
+[ext_resource type="Texture2D" uid="uid://bm60cyfrksc1s" path="res://NPCs/caballito/Caballito_045.png" id="47_s6nbx"]
+[ext_resource type="Texture2D" uid="uid://cmjx5tacricf0" path="res://NPCs/caballito/Caballito_046.png" id="48_7g4yd"]
+[ext_resource type="Texture2D" uid="uid://b526gaaaycaj7" path="res://NPCs/caballito/Caballito_047.png" id="49_duwky"]
+[ext_resource type="Texture2D" uid="uid://csmve8rco5tip" path="res://NPCs/caballito/Caballito_048.png" id="50_j2rq2"]
+[ext_resource type="Texture2D" uid="uid://bsbp0c1n71eyo" path="res://NPCs/caballito/Caballito_049.png" id="51_u5v7u"]
+[ext_resource type="Texture2D" uid="uid://cmwsbwikelgpn" path="res://NPCs/caballito/Caballito_050.png" id="52_gmco8"]
+[ext_resource type="Texture2D" uid="uid://diisb486gsevh" path="res://NPCs/caballito/Caballito_051.png" id="53_wkcf7"]
+[ext_resource type="Texture2D" uid="uid://ot31lx2po02s" path="res://NPCs/caballito/Caballito_052.png" id="54_bwq4k"]
+[ext_resource type="Texture2D" uid="uid://2m4nr4n6o36q" path="res://NPCs/caballito/Caballito_053.png" id="55_3bl6k"]
+[ext_resource type="Texture2D" uid="uid://ucib71nnn3tr" path="res://NPCs/caballito/Caballito_054.png" id="56_xl1bc"]
+[ext_resource type="Texture2D" uid="uid://c6jlbxqrff1ke" path="res://NPCs/caballito/Caballito_055.png" id="57_jelqr"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4bx20"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_a5hl4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_3osp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_vuksj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_ragvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_p77i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_jpcv1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_3x1hh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_y024t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_nq23l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_pjfhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_fd0ca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_fgbkl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_l580t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_bitgk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_d0pj0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_4w82n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_a0mei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_n2sto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_d1bj2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_fxvrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_mlqrq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_cx7n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_myfeo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_2aht4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_nr2xy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_t163t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_a01ii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_6elbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_l2meg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_q7vuh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_30otp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_h7sq6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_xyv44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_xhqr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_o7uox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_82p74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_baxa6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_vl66h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_hjixl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_m25en")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_s6nbx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_7g4yd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_duwky")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_j2rq2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_u5v7u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_gmco8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_wkcf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_bwq4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_3bl6k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_xl1bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_jelqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_fxtgy")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 9.0
+}]
+
+[node name="Caballito" type="PathFollow2D" unique_id=35575839]
+rotates = false
+script = ExtResource("1_enbqf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1096656849]
+scale = Vector2(0.2, 0.2)
+sprite_frames = SubResource("SpriteFrames_4bx20")
+autoplay = "default"
+frame_progress = 0.018910527

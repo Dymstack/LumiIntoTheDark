@@ -1,0 +1,255 @@
+[gd_scene format=3 uid="uid://fpbaqs2hhy5d"]
+
+[ext_resource type="Script" uid="uid://tjudl0ndduc8" path="res://pez_embiste.gd" id="1_oovlt"]
+[ext_resource type="Texture2D" uid="uid://dtggwha5mdnrv" path="res://NPCs/pezEspada/Pez espada_000.png" id="2_s2vae"]
+[ext_resource type="Texture2D" uid="uid://dtdlkwph1bpx1" path="res://NPCs/pezEspada/Pez espada_001.png" id="3_itw2e"]
+[ext_resource type="Texture2D" uid="uid://bd2ex52aav04u" path="res://NPCs/pezEspada/Pez espada_002.png" id="4_tqxne"]
+[ext_resource type="Texture2D" uid="uid://dvbbwn1hnap2r" path="res://NPCs/pezEspada/Pez espada_003.png" id="5_p7dyx"]
+[ext_resource type="Texture2D" uid="uid://c2scsrk8jj63c" path="res://NPCs/pezEspada/Pez espada_004.png" id="6_qihh6"]
+[ext_resource type="Texture2D" uid="uid://dpm3ep6niuiu4" path="res://NPCs/pezEspada/Pez espada_005.png" id="7_qypr3"]
+[ext_resource type="Texture2D" uid="uid://bcan0n8udxk68" path="res://NPCs/pezEspada/Pez espada_006.png" id="8_lts5k"]
+[ext_resource type="Texture2D" uid="uid://b13v3embxi7oo" path="res://NPCs/pezEspada/Pez espada_007.png" id="9_0jsvv"]
+[ext_resource type="Texture2D" uid="uid://chx61ufbgkvb0" path="res://NPCs/pezEspada/Pez espada_008.png" id="10_wekv2"]
+[ext_resource type="Texture2D" uid="uid://b4yuqfh1v7vcs" path="res://NPCs/pezEspada/Pez espada_009.png" id="11_3tkuf"]
+[ext_resource type="Texture2D" uid="uid://c2ws2rqwj5gpw" path="res://NPCs/pezEspada/Pez espada_010.png" id="12_kw24t"]
+[ext_resource type="Texture2D" uid="uid://idn00n8w4t73" path="res://NPCs/pezEspada/Pez espada_011.png" id="13_62ia6"]
+[ext_resource type="Texture2D" uid="uid://b4drawtb44d7f" path="res://NPCs/pezEspada/Pez espada_013.png" id="14_nm2ax"]
+[ext_resource type="Texture2D" uid="uid://cyxaj05vi8vj7" path="res://NPCs/pezEspada/Pez espada_014.png" id="15_arqaf"]
+[ext_resource type="Texture2D" uid="uid://dnlg8a645bt11" path="res://NPCs/pezEspada/Pez espada_015.png" id="16_tcfk3"]
+[ext_resource type="Texture2D" uid="uid://piv2knqmnagw" path="res://NPCs/pezEspada/Pez espada_016.png" id="17_1m3va"]
+[ext_resource type="Texture2D" uid="uid://bbegowffhdqcy" path="res://NPCs/pezEspada/Pez espada_017.png" id="18_tckaj"]
+[ext_resource type="Texture2D" uid="uid://roftpehonpqn" path="res://NPCs/pezEspada/Pez espada_018.png" id="19_gjfa6"]
+[ext_resource type="Texture2D" uid="uid://db8pmpsj1gk2x" path="res://NPCs/pezEspada/Pez espada_019.png" id="20_eogtj"]
+[ext_resource type="Texture2D" uid="uid://calyowdc1dl5v" path="res://NPCs/pezEspada/Pez espada_020.png" id="21_mbadx"]
+[ext_resource type="Texture2D" uid="uid://v4l75lqw0vg4" path="res://NPCs/pezEspada/Pez espada_021.png" id="22_v1jke"]
+[ext_resource type="Texture2D" uid="uid://g6alstluhcrr" path="res://NPCs/pezEspada/Pez espada_022.png" id="23_n3pue"]
+[ext_resource type="Texture2D" uid="uid://cjrqilfsnbjmj" path="res://NPCs/pezEspada/Pez espada_023.png" id="24_u3jbh"]
+[ext_resource type="Texture2D" uid="uid://du8q5avbom667" path="res://NPCs/pezEspada/Pez espada_024.png" id="25_ibboh"]
+[ext_resource type="Texture2D" uid="uid://deeue2lpaysxb" path="res://NPCs/pezEspada/Pez espada_025.png" id="26_qgtrh"]
+[ext_resource type="Texture2D" uid="uid://rw3f61d1l2wu" path="res://NPCs/pezEspada/Pez espada_026.png" id="27_dmacl"]
+[ext_resource type="Texture2D" uid="uid://sssxswo0s8mp" path="res://NPCs/pezEspada/Pez espada_027.png" id="28_dlni1"]
+[ext_resource type="Texture2D" uid="uid://cj43m6nforbs7" path="res://NPCs/pezEspada/Pez espada_028.png" id="29_hurn1"]
+[ext_resource type="Texture2D" uid="uid://cfs32tm8kuj1j" path="res://NPCs/pezEspada/Pez espada_029.png" id="30_wlsht"]
+[ext_resource type="Texture2D" uid="uid://p6yojpon8ivq" path="res://NPCs/pezEspada/Pez espada_030.png" id="31_c0d0w"]
+[ext_resource type="Texture2D" uid="uid://cp8m2k3s54iws" path="res://NPCs/pezEspada/Pez espada_031.png" id="32_uw0uy"]
+[ext_resource type="Texture2D" uid="uid://cbf1ybi12hcls" path="res://NPCs/pezEspada/Pez espada_032.png" id="33_jglb4"]
+[ext_resource type="Texture2D" uid="uid://d0k6wr2i4sho1" path="res://NPCs/pezEspada/Pez espada_033.png" id="34_s0adk"]
+[ext_resource type="Texture2D" uid="uid://dc4q5y2sa5ln5" path="res://NPCs/pezEspada/Pez espada_034.png" id="35_pdjbt"]
+[ext_resource type="Texture2D" uid="uid://bnin4k5pscpfq" path="res://NPCs/pezEspada/Pez espada_035.png" id="36_wjwt8"]
+[ext_resource type="Texture2D" uid="uid://co61rmcp16ouh" path="res://NPCs/pezEspada/Pez espada_036.png" id="37_dus7l"]
+[ext_resource type="Texture2D" uid="uid://bp2dkvd8tevlu" path="res://NPCs/pezEspada/Pez espada_037.png" id="38_wwh8w"]
+[ext_resource type="Texture2D" uid="uid://mkm1nn1443kk" path="res://NPCs/pezEspada/Pez espada_038.png" id="39_i8ryj"]
+[ext_resource type="Texture2D" uid="uid://b7ow8755v4f8e" path="res://NPCs/pezEspada/Pez espada_039.png" id="40_4hu1e"]
+[ext_resource type="Texture2D" uid="uid://vbyfj3xtlyv1" path="res://NPCs/pezEspada/Pez espada_040.png" id="41_ovem7"]
+[ext_resource type="Texture2D" uid="uid://bb82b8gkndqu8" path="res://NPCs/pezEspada/Pez espada_041.png" id="42_traqm"]
+[ext_resource type="Texture2D" uid="uid://bk87vmb4pfw5j" path="res://NPCs/pezEspada/Pez espada_042.png" id="43_dpeay"]
+[ext_resource type="Texture2D" uid="uid://rc6ew1d8rwcu" path="res://NPCs/pezEspada/Pez espada_043.png" id="44_xddtt"]
+[ext_resource type="Texture2D" uid="uid://b1wehesa4vs3r" path="res://NPCs/pezEspada/Pez espada_044.png" id="45_kyu8u"]
+[ext_resource type="Texture2D" uid="uid://joxexu38npol" path="res://NPCs/pezEspada/Pez espada_045.png" id="46_yh7r6"]
+[ext_resource type="Texture2D" uid="uid://d3y8neu3tiqa8" path="res://NPCs/pezEspada/Pez espada_046.png" id="47_vrb8o"]
+[ext_resource type="Texture2D" uid="uid://c82rrgxk02r4d" path="res://NPCs/pezEspada/Pez espada_047.png" id="48_55ojm"]
+[ext_resource type="Texture2D" uid="uid://4sly45pdulxh" path="res://NPCs/pezEspada/Pez espada_048.png" id="49_efuh5"]
+[ext_resource type="Texture2D" uid="uid://day0ec8t4sicd" path="res://NPCs/pezEspada/Pez espada_049.png" id="50_ktv6d"]
+[ext_resource type="Texture2D" uid="uid://7n54qedp6bq7" path="res://NPCs/pezEspada/Pez espada_050.png" id="51_tn651"]
+[ext_resource type="Texture2D" uid="uid://dk70xo0vj14t6" path="res://NPCs/pezEspada/Pez espada_051.png" id="52_3w35o"]
+[ext_resource type="Texture2D" uid="uid://c4d0npf8ss13t" path="res://NPCs/pezEspada/Pez espada_052.png" id="53_jf6tq"]
+[ext_resource type="Texture2D" uid="uid://b8jy7dwsb4fcg" path="res://NPCs/pezEspada/Pez espada_053.png" id="54_m4qwx"]
+[ext_resource type="Texture2D" uid="uid://7f26w2j4f7xg" path="res://NPCs/pezEspada/Pez espada_054.png" id="55_8nnqj"]
+[ext_resource type="Texture2D" uid="uid://twd4uv31pj21" path="res://NPCs/pezEspada/Pez espada_055.png" id="56_lwkqd"]
+[ext_resource type="Texture2D" uid="uid://52p8jse4ifnj" path="res://NPCs/pezEspada/Pez espada_056.png" id="57_spywb"]
+[ext_resource type="Texture2D" uid="uid://c25j0bomvc7c8" path="res://NPCs/pezEspada/Pez espada_057.png" id="58_umld3"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7gyfr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_s2vae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_itw2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_tqxne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_p7dyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qihh6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_qypr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_lts5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0jsvv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wekv2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_3tkuf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_kw24t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_62ia6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_nm2ax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_arqaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_tcfk3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_1m3va")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_tckaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_gjfa6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_eogtj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_mbadx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_v1jke")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_n3pue")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_u3jbh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ibboh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_qgtrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_dmacl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_dlni1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_hurn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_wlsht")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_c0d0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_uw0uy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_jglb4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_s0adk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_pdjbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_wjwt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_dus7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_wwh8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_i8ryj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_4hu1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ovem7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_traqm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_dpeay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_xddtt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_kyu8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_yh7r6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_vrb8o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_55ojm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_efuh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ktv6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_tn651")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_3w35o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_jf6tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_m4qwx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_8nnqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_lwkqd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_spywb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_umld3")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="PezEspada" type="PathFollow2D" unique_id=681548766]
+rotates = false
+script = ExtResource("1_oovlt")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=977988999]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D" unique_id=1571066420]
+scale = Vector2(0.5, 0.5)
+sprite_frames = SubResource("SpriteFrames_7gyfr")
+autoplay = "default"
+frame_progress = 0.24654014
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D" unique_id=1885731463]
+scale = Vector2(0.5, 0.5)
+polygon = PackedVector2Array(2, -167.79999, 2, -165.29999, 0, -164.20001, 0, -159.29999, 9, -148, 9.799988, -148, 22, -121.70001, 22, -119.399994, 18, -97.20001, 18, -93.29999, 13.5, -91, 10.200012, -91, 12, -85.70001, 12, -82.70001, 9, -78.70001, 9, -76, -4, -66, -4, -61, -18, -50, -26.400024, -48, -32, -48, -36, -42.700012, -83, -31.600006, -83, -31, -103.70001, -31, -109, -27, -124.899994, -23.799988, -125.70001, -24, -136.79999, -24, -139.79999, -21, -148.29999, -21, -170, -39.899994, -170, -41.299988, -188.6, -49, -192.79999, -49, -197, -44.799988, -197, -41.399994, -191, -31.5, -191, -26.700012, -194.9, -22, -198.20001, -22, -195, -15.600006, -195, -11.700012, -217.4, -7, -241, -7, -269, -41.899994, -269, -44.799988, -313, -91.899994, -313, -94, -320.5, -94, -339, -103.29999, -339, -105.29999, -349.2, -104, -351.8, -104, -355, -100.79999, -355, -96.100006, -346.7, -89, -346, -89, -331, -68, -330.2, -68, -319.2, -46, -318.4, -46, -295.5, 12.799988, -296, 15.799988, -296, 18.200012, -299.8, 22, -301.5, 22, -304, 30.700012, -304, 36.5, -314, 56.5, -314, 59.299988, -336.1, 93, -337.4, 93, -339.4, 99, -342.2, 99, -339, 105.400024, -339, 108.900024, -313.6, 99, -311.3, 99, -297.3, 88, -295.1, 88, -270.2, 62, -269, 62, -238.1, 22, -204.29999, 33, -203.29999, 33, -200.6, 39.399994, -204, 50.700012, -204, 55.200012, -200, 57.200012, -200, 58.200012, -197.79999, 59.299988, -173, 41, -173, 40, -168.4, 40, -131.4, 54, -130.5, 54, -131.1, 55, -133.70001, 55, -131, 64, -131, 70.5, -136.4, 84, -137.20001, 84, -138.29999, 86.20001, -135, 90.599976, -135, 94, -118.70001, 87, -116.20001, 87, -107.29999, 79, -105, 79, -96, 67, -94.70001, 67, -93.600006, 64.5, -95.29999, 62.799988, -34, 73.70001, -34, 75, 17, 76, 17, 77.79999, 17, 79.29999, 7, 92.29999, 7, 94.20001, -17.900024, 122, -20.799988, 122, -17.400024, 132, -8.5, 132, 3.5, 125, 8.599976, 125, 45.5, 99, 47.900024, 99, 72, 72.099976, 72, 102, 78.900024, 102, 96.900024, 81, 98.400024, 81, 103.79999, 66, 110.70001, 66, 116, 62, 122.5, 62, 132.5, 57, 139.59998, 57, 149.5, 51, 156.5, 51, 210.5, 21, 212.79999, 21, 216, 17.799988, 216, 13.799988, 212, 11.700012, 212, 9.899994, 193.29999, 11, 234, 0.5, 248.79999, 0, 251.79999, -3, 271.09998, -3, 273.09998, -6, 289.8, -6, 293.8, -10, 310.8, -10, 313.8, -13, 330.8, -13, 333.8, -16, 348.59998, -16, 355.59998, -20.700012, 359.8, -20, 366.09998, -20, 368.09998, -23, 371.2, -23, 366.2, -33, 360.8, -33, 328, -27.700012, 328, -26.899994, 281, -23.899994, 281, -23, 204.09998, -23, 200.20001, -24, 193.79999, -24, 192, -25.799988, 192, -28, 181.29999, -28, 169.40002, -33, 163.70001, -33, 161, -35, 161, -36.399994, 145.29999, -42, 136.5, -42, 128, -47.100006, 128, -49.399994, 120.599976, -48, 118.70001, -48, 110.70001, -54, 108.900024, -54, 99.900024, -65, 99.20001, -65, 89, -83.70001, 89, -89.600006, 79, -103.70001, 79, -107.79999, 56, -133.79999, 56, -136, 26, -158.1, 26, -159.4)

@@ -1,18 +1,267 @@
 [gd_scene format=3 uid="uid://b46tl7b20udmp"]
 
-[ext_resource type="Texture2D" uid="uid://dcvaas6n6oirj" path="res://icon.svg" id="1_12hi3"]
 [ext_resource type="Script" uid="uid://c8p01hkrolwat" path="res://tiburon.gd" id="1_fuieb"]
+[ext_resource type="Texture2D" uid="uid://8mn547fjxcts" path="res://NPCs/tiburon/Tiburon_000.png" id="2_j211y"]
+[ext_resource type="Texture2D" uid="uid://cllpb5vbf3mk1" path="res://NPCs/tiburon/Tiburon_001.png" id="3_4m36e"]
+[ext_resource type="Texture2D" uid="uid://djhn7jkeutl8e" path="res://NPCs/tiburon/Tiburon_002.png" id="4_7lp8x"]
+[ext_resource type="Texture2D" uid="uid://da6487go2ikbd" path="res://NPCs/tiburon/Tiburon_003.png" id="5_1c6ww"]
+[ext_resource type="Texture2D" uid="uid://cwv16xelr0kfr" path="res://NPCs/tiburon/Tiburon_004.png" id="6_f7ak5"]
+[ext_resource type="Texture2D" uid="uid://damvp88pallrg" path="res://NPCs/tiburon/Tiburon_005.png" id="7_obhdc"]
+[ext_resource type="Texture2D" uid="uid://1rwynkpugmha" path="res://NPCs/tiburon/Tiburon_006.png" id="8_kv858"]
+[ext_resource type="Texture2D" uid="uid://5bbq8iexxjba" path="res://NPCs/tiburon/Tiburon_007.png" id="9_elp6c"]
+[ext_resource type="Texture2D" uid="uid://d3uq0ejwf55q2" path="res://NPCs/tiburon/Tiburon_008.png" id="10_c7jrx"]
+[ext_resource type="Texture2D" uid="uid://ko5mholgf1v" path="res://NPCs/tiburon/Tiburon_009.png" id="11_ayc8i"]
+[ext_resource type="Texture2D" uid="uid://b1d58sugeiag4" path="res://NPCs/tiburon/Tiburon_010.png" id="12_anrwq"]
+[ext_resource type="Texture2D" uid="uid://cc0d0ia1c4ikq" path="res://NPCs/tiburon/Tiburon_011.png" id="13_1myhd"]
+[ext_resource type="Texture2D" uid="uid://c3owabu8r3alt" path="res://NPCs/tiburon/Tiburon_012.png" id="14_k4kov"]
+[ext_resource type="Texture2D" uid="uid://b5ylsxbx60eq6" path="res://NPCs/tiburon/Tiburon_013.png" id="15_yy0ld"]
+[ext_resource type="Texture2D" uid="uid://cisswl5qwvmjm" path="res://NPCs/tiburon/Tiburon_014.png" id="16_ii1ag"]
+[ext_resource type="Texture2D" uid="uid://bg500xykw4p0r" path="res://NPCs/tiburon/Tiburon_015.png" id="17_xbocg"]
+[ext_resource type="Texture2D" uid="uid://yvid32nhmrrl" path="res://NPCs/tiburon/Tiburon_016.png" id="18_851hg"]
+[ext_resource type="Texture2D" uid="uid://cwt48bqsq8fi3" path="res://NPCs/tiburon/Tiburon_017.png" id="19_shklo"]
+[ext_resource type="Texture2D" uid="uid://fuetkxfhql5r" path="res://NPCs/tiburon/Tiburon_018.png" id="20_j6sp2"]
+[ext_resource type="Texture2D" uid="uid://baon0n5umyjbx" path="res://NPCs/tiburon/Tiburon_019.png" id="21_k80xy"]
+[ext_resource type="Texture2D" uid="uid://djlcrkq1lgj10" path="res://NPCs/tiburon/Tiburon_020.png" id="22_ie16y"]
+[ext_resource type="Texture2D" uid="uid://balusoyugh6wb" path="res://NPCs/tiburon/Tiburon_021.png" id="23_0mbax"]
+[ext_resource type="Texture2D" uid="uid://cqoba8gn7isj0" path="res://NPCs/tiburon/Tiburon_022.png" id="24_s68fc"]
+[ext_resource type="Texture2D" uid="uid://1lp4dsejw78o" path="res://NPCs/tiburon/Tiburon_023.png" id="25_kqllp"]
+[ext_resource type="Texture2D" uid="uid://c6ea85yfuh3n7" path="res://NPCs/tiburon/Tiburon_024.png" id="26_b0pen"]
+[ext_resource type="Texture2D" uid="uid://drc1ym7rv2lbk" path="res://NPCs/tiburon/Tiburon_025.png" id="27_1tkyk"]
+[ext_resource type="Texture2D" uid="uid://lyko5g3v8rjb" path="res://NPCs/tiburon/Tiburon_026.png" id="28_qpiig"]
+[ext_resource type="Texture2D" uid="uid://cdbwp1jy3uxap" path="res://NPCs/tiburon/Tiburon_027.png" id="29_3rqjd"]
+[ext_resource type="Texture2D" uid="uid://bac2kk0grsc1u" path="res://NPCs/tiburon/Tiburon_028.png" id="30_j8387"]
+[ext_resource type="Texture2D" uid="uid://dnbsrw1dxojpj" path="res://NPCs/tiburon/Tiburon_029.png" id="31_kiuts"]
+[ext_resource type="Texture2D" uid="uid://bfce1d2er6pjs" path="res://NPCs/tiburon/Tiburon_030.png" id="32_jylpc"]
+[ext_resource type="Texture2D" uid="uid://bosjbn26llsap" path="res://NPCs/tiburon/Tiburon_031.png" id="33_88wn5"]
+[ext_resource type="Texture2D" uid="uid://yfxl7w60fv4e" path="res://NPCs/tiburon/Tiburon_032.png" id="34_3ct0q"]
+[ext_resource type="Texture2D" uid="uid://c83132dsctsju" path="res://NPCs/tiburon/Tiburon_033.png" id="35_3e54s"]
+[ext_resource type="Texture2D" uid="uid://cecwil2ykns6u" path="res://NPCs/tiburon/Tiburon_034.png" id="36_33ifh"]
+[ext_resource type="Texture2D" uid="uid://bwobbuf8c304b" path="res://NPCs/tiburon/Tiburon_035.png" id="37_hcpe0"]
+[ext_resource type="Texture2D" uid="uid://ceomvinkdpbgs" path="res://NPCs/tiburon/Tiburon_036.png" id="38_lr4ks"]
+[ext_resource type="Texture2D" uid="uid://xgpmv1fjn0r5" path="res://NPCs/tiburon/Tiburon_037.png" id="39_i032u"]
+[ext_resource type="Texture2D" uid="uid://d4hb1xpfkhore" path="res://NPCs/tiburon/Tiburon_038.png" id="40_ijimn"]
+[ext_resource type="Texture2D" uid="uid://bvexertxmlg1r" path="res://NPCs/tiburon/Tiburon_039.png" id="41_5tgyt"]
+[ext_resource type="Texture2D" uid="uid://c2lmoeq06frn6" path="res://NPCs/tiburon/Tiburon_040.png" id="42_2oaxn"]
+[ext_resource type="Texture2D" uid="uid://o2e2xy0irmvg" path="res://NPCs/tiburon/Tiburon_041.png" id="43_34076"]
+[ext_resource type="Texture2D" uid="uid://w7trh4emkmtc" path="res://NPCs/tiburon/Tiburon_042.png" id="44_ihvs3"]
+[ext_resource type="Texture2D" uid="uid://ku23pcqc3dx2" path="res://NPCs/tiburon/Tiburon_043.png" id="45_h0pc5"]
+[ext_resource type="Texture2D" uid="uid://dvlcme04yi1j8" path="res://NPCs/tiburon/Tiburon_044.png" id="46_jck1r"]
+[ext_resource type="Texture2D" uid="uid://qfs7ixmygoot" path="res://NPCs/tiburon/Tiburon_045.png" id="47_0diop"]
+[ext_resource type="Texture2D" uid="uid://bktiv6s0h2g2q" path="res://NPCs/tiburon/Tiburon_046.png" id="48_2rxdv"]
+[ext_resource type="Texture2D" uid="uid://dgtjt20e200mh" path="res://NPCs/tiburon/Tiburon_047.png" id="49_o58gh"]
+[ext_resource type="Texture2D" uid="uid://d2yd7a0gl7sla" path="res://NPCs/tiburon/Tiburon_048.png" id="50_4i7pl"]
+[ext_resource type="Texture2D" uid="uid://chtn7nkd84c5f" path="res://NPCs/tiburon/Tiburon_049.png" id="51_n1v38"]
+[ext_resource type="Texture2D" uid="uid://utck6hexim2k" path="res://NPCs/tiburon/Tiburon_050.png" id="52_eeevk"]
+[ext_resource type="Texture2D" uid="uid://ifi8drd42fdh" path="res://NPCs/tiburon/Tiburon_051.png" id="53_meshq"]
+[ext_resource type="Texture2D" uid="uid://cqiykpxaqirva" path="res://NPCs/tiburon/Tiburon_052.png" id="54_iqt2s"]
+[ext_resource type="Texture2D" uid="uid://ngvotwygysy1" path="res://NPCs/tiburon/Tiburon_053.png" id="55_bv2qj"]
+[ext_resource type="Texture2D" uid="uid://rj1ghbs1ong8" path="res://NPCs/tiburon/Tiburon_054.png" id="56_lqoeq"]
+[ext_resource type="Texture2D" uid="uid://csmj5fq3jd2qw" path="res://NPCs/tiburon/Tiburon_055.png" id="57_mnfoe"]
+[ext_resource type="Texture2D" uid="uid://ckyktt410e7ub" path="res://NPCs/tiburon/Tiburon_056.png" id="58_6uarc"]
+[ext_resource type="Texture2D" uid="uid://hxalg5trhl7h" path="res://NPCs/tiburon/Tiburon_057.png" id="59_76tx1"]
+[ext_resource type="Texture2D" uid="uid://bqxubwxcrdnj5" path="res://NPCs/tiburon/Tiburon_058.png" id="60_ymhei"]
+[ext_resource type="Texture2D" uid="uid://g3vfw7wbkkt4" path="res://NPCs/tiburon/Tiburon_059.png" id="61_ldgab"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_kfsbt"]
-size = Vector2(122, 101)
+[sub_resource type="SpriteFrames" id="SpriteFrames_kfsbt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_j211y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_4m36e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7lp8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1c6ww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_f7ak5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_obhdc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_kv858")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_elp6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_c7jrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_ayc8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_anrwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1myhd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_k4kov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_yy0ld")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_ii1ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_xbocg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_851hg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_shklo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_j6sp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_k80xy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_ie16y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_0mbax")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_s68fc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_kqllp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_b0pen")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_1tkyk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_qpiig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_3rqjd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_j8387")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_kiuts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_jylpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_88wn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_3ct0q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_3e54s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_33ifh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_hcpe0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_lr4ks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_i032u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ijimn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_5tgyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_2oaxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_34076")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_ihvs3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_h0pc5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_jck1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_0diop")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_2rxdv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_o58gh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_4i7pl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_n1v38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_eeevk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_meshq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_iqt2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_bv2qj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_lqoeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_mnfoe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_6uarc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_76tx1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_ymhei")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_ldgab")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 12.0
+}]
 
-[node name="Tiburon" type="Area2D" unique_id=1714682830]
+[node name="tiburon" type="PathFollow2D" unique_id=1925373998]
+rotates = false
 script = ExtResource("1_fuieb")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=799281622]
-texture = ExtResource("1_12hi3")
+[node name="Area2D" type="Area2D" parent="." unique_id=740171550]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1542795928]
-shape = SubResource("RectangleShape2D_kfsbt")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Area2D" unique_id=201807016]
+scale = Vector2(0.35, 0.35)
+sprite_frames = SubResource("SpriteFrames_kfsbt")
+autoplay = "default"
+frame_progress = 0.053960916
 
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D" unique_id=733530924]
+scale = Vector2(0.35, 0.35)
+polygon = PackedVector2Array(17, -164, 17, -162.6, 15, -161.6, 15, -148.6, 18.599976, -145, 20, -145, 20, -143, 21, -143, 21, -134.6, 24.599976, -131, 25, -129, 26.299988, -129, 27, -127, 27, -117.79999, 29, -113.79999, 29, -112.29999, 27, -105.100006, 27, -103.600006, 25.799988, -103, 23.400024, -103, 22.400024, -101, 21, -101, 21, -90.399994, 16.5, -84, 15.299988, -84, 12.400024, -77, 11.400024, -77, 10.799988, -75.899994, 13, -72.70001, 13, -69.399994, 9, -64.399994, 9, -63.600006, 7.799988, -63, -9.299988, -63, -13, -60.5, -13, -59.799988, -17, -58.799988, -17, -58, -30.200012, -58, -35, -55.600006, -35, -54.899994, -45.5, -52.899994, -51.400024, -53, -53, -51.399994, -55, -51, -55, -49.799988, -61.299988, -48, -68.400024, -48, -71, -45.399994, -71, -44.799988, -75, -43.799988, -75, -43.200012, -79.900024, -44, -83.20001, -44, -90, -41.700012, -90, -40.899994, -98, -39.899994, -98, -39, -108.20001, -39, -113, -36.600006, -113, -35.899994, -125, -33.799988, -125, -33, -140.59998, -33, -146, -38.399994, -146, -39.600006, -148.79999, -41, -150.59998, -41, -153, -43.399994, -153, -44.600006, -157, -46.600006, -157, -48, -162.59998, -48, -168, -52.5, -168, -53.600006, -174, -56.600006, -174, -58, -182.6, -58, -188, -62.5, -188, -64.600006, -191.20001, -63, -196.4, -63, -199, -60.399994, -199, -58.600006, -197.4, -57, -196.6, -57, -196, -55.799988, -196, -51.600006, -193.4, -49, -192.6, -49, -191, -45.799988, -191, -43.399994, -199.5, -31, -200.9, -31, -202, -21.100006, -202, -19.600006, -206.29999, -17, -218.4, -17, -221, -14.399994, -221, -13.799988, -225, -12.799988, -225.79999, -13, -227.20001, -13, -232.20001, -11, -243.4, -11, -246, -8.399994, -248, -8, -248, -7, -272.6, -7, -282.6, -15, -284.4, -15, -285, -16.200012, -285, -18.399994, -297.6, -31, -298.3, -31, -300, -36, -300, -38.399994, -302.6, -41, -304.4, -41, -305, -42.200012, -305, -44.399994, -312.6, -52, -313, -53.399994, -316, -56.399994, -316, -58.399994, -329, -71.399994, -329, -73.399994, -333.6, -78, -335.5, -78, -339.5, -83, -341.4, -83, -343, -86.20001, -343, -88.399994, -346.6, -92, -348, -92, -348, -93.5, -351, -95.600006, -351, -96.600006, -358.7, -101, -360.5, -101, -364, -105.399994, -364, -107.399994, -366.6, -110, -368, -110, -368, -111.600006, -370, -112.600006, -370, -113.79999, -375.9, -115, -377.6, -115, -379, -116.399994, -379, -117.600006, -381.8, -119, -383.6, -119, -394, -128.5, -394, -130, -403.6, -130, -408, -133.5, -408, -135, -413.7, -135, -416, -136.6, -416, -138, -419, -138, -419, -139.2, -425.2, -138, -429.6, -138, -430.6, -136, -432, -136, -432, -132.6, -426.4, -127, -425.6, -127, -423, -121.79999, -423, -119.5, -415.4, -113, -414.6, -113, -412, -107.79999, -412, -105.600006, -408.4, -102, -407.7, -102, -406, -97, -406, -93.600006, -401.4, -89, -400.6, -89, -398, -83.79999, -398, -81.600006, -393.5, -76, -392.6, -76, -390, -70.79999, -390, -66.600006, -388.4, -65, -387.6, -65, -387, -63.799988, -387, -60.700012, -381.5, -53, -380.6, -53, -378, -46.899994, -378, -43.600006, -375.4, -41, -374.6, -41, -372, -34.899994, -372, -25.600006, -369.4, -23, -368.6, -23, -367, -19.799988, -367, -17.600006, -363.4, -14, -362, -14, -362, -12, -360.9, -12, -360, -6.799988, -360, -1.6000061, -358.4, 0, -357.6, 0, -357, 1.2000122, -357, 4.399994, -354.4, 7, -353.7, 7, -351.7, 13, -351.1, 13, -352, 19.899994, -352, 23.700012, -360, 35.700012, -360, 44.600006, -364.5, 50, -366, 50, -366, 55.600006, -369.5, 60, -370.8, 60, -373, 68.899994, -373, 74.600006, -377.4, 79, -379, 79, -379, 82.600006, -381, 84.600006, -381, 86.600006, -381.4, 87, -383.5, 87, -386.5, 91, -387.7, 91, -389, 94.79999, -389, 97.600006, -391, 99.600006, -391, 101.600006, -391.4, 102, -393.5, 102, -395.5, 105, -396.6, 105, -400.6, 113, -402, 113, -402, 116.600006, -400, 117.600006, -400, 119, -393.6, 119, -391, 116.399994, -391, 115.600006, -387.8, 114, -379.6, 114, -378, 112.399994, -378, 111.600006, -373.8, 110, -370.6, 110, -367, 106.399994, -367, 105.600006, -365.8, 105, -362.6, 105, -360, 102.399994, -360, 101.600006, -356.8, 100, -353.6, 100, -348, 95.5, -348, 94.600006, -341.8, 92, -338.6, 92, -336.6, 90, -334.5, 90, -331, 85.29999, -331, 83.600006, -329, 82.600006, -329, 80.600006, -324.7, 78, -322.5, 78, -303.5, 56, -302.3, 56, -300, 49.200012, -300, 47.399994, -293.6, 41, -292.4, 41, -290, 36.200012, -290, 34.5, -284.7, 31, -282.4, 31, -281.4, 29, -279.5, 29, -273.5, 22, -251.20001, 22, -248, 23.600006, -248, 24.700012, -244.20001, 26, -240.20001, 26, -236, 27.600006, -236, 28.799988, -221.1, 33, -213.4, 33, -210.4, 36, -209.6, 36, -209, 37.200012, -209, 46.799988, -211, 51.799988, -211, 54.600006, -214.5, 59, -215.70001, 59, -216.20001, 60.200012, -214, 62.399994, -214, 64, -209.70001, 64, -203.70001, 60, -197.6, 60, -195, 57.399994, -195, 55.600006, -187.79999, 52, -185.6, 52, -181, 47.399994, -181, 46.600006, -179, 46, -173, 46, -173, 47, -164.29999, 47, -159, 50.5, -159, 52, -150.29999, 52, -145.29999, 55, -142.40002, 55, -138, 58.399994, -138, 60, -136, 60, -136, 61, -128.40002, 61, -125.400024, 64, -114.29999, 64, -105.29999, 69, -103.599976, 69, -103, 70.20001, -103, 78.399994, -100.400024, 81, -100, 83, -99, 83, -99, 89.600006, -103.400024, 94, -105, 94, -105, 98.600006, -103, 99.600006, -103, 101, -98.70001, 101, -94.70001, 98, -91.599976, 98, -89, 95.399994, -89, 94.600006, -84, 92.70001, -82.20001, 93, -80.70001, 93, -77.70001, 91, -74.599976, 91, -68, 84.399994, -68, 83.600006, -58, 79.70001, -58, 79, -44.299988, 79, -38, 83.5, -38, 84.70001, -36.799988, 85.20001, -35.599976, 84, -22.400024, 84, -18, 88.399994, -18, 90.20001, -9.900024, 89, -4.200012, 89, -3, 89.600006, -3, 91, 11.799988, 91, 13, 91.600006, 13, 92.899994, 32, 94, 53.599976, 94, 58, 98.399994, 58, 100, 65.400024, 100, 69, 96.399994, 69, 94.5, 72.29999, 92, 74.599976, 92, 77, 94.399994, 77, 107.600006, 73.5, 112, 72, 112, 72, 119.600006, 67.599976, 124, 66, 124, 66, 128.59998, 62.5, 133, 61, 133, 61, 138.59998, 59, 140.59998, 59, 143.59998, 56.599976, 146, 55.299988, 146, 54.299988, 149, 53.200012, 149, 51.200012, 157, 50.400024, 157, 49.799988, 158.09998, 52.5, 162, 67.400024, 162, 70, 159.40002, 70, 158.59998, 73, 157.70001, 73, 156.59998, 74.20001, 156, 81.29999, 156, 85.29999, 153, 92.5, 153, 96, 148.29999, 96, 147.59998, 107.20001, 142, 109.400024, 142, 113.400024, 138, 115.400024, 138, 132.40002, 121, 133.59998, 121, 135, 118.20001, 135, 117, 136.5, 117, 143.5, 109, 145, 109, 145, 105.399994, 147, 103.399994, 147, 100.29999, 151, 95.399994, 151, 92.600006, 155, 90.600006, 155, 90, 157.70001, 90, 161.70001, 93, 174.59998, 93, 176.59998, 95, 178, 95, 178, 101.399994, 174.79999, 103, 166.59998, 103, 164, 105.600006, 164, 107.5, 173.70001, 114, 175, 114, 175, 115.5, 182, 121.5, 182, 123, 186.70001, 123, 190, 125.5, 190, 126.600006, 192.79999, 128, 195.70001, 128, 199, 130.5, 199, 131.79999, 203.90002, 133, 205.5, 133, 208.5, 137, 211.59998, 137, 212.59998, 135, 214, 135, 214, 108.600006, 212, 106.600006, 212, 102.600006, 209, 99.600006, 209, 98.100006, 192, 97, 190.79999, 97, 189.79999, 93, 189, 93, 191, 91.600006, 191, 91, 218.29999, 91, 227.29999, 85, 243.40002, 85, 248, 80.399994, 250, 80, 250, 78.899994, 273, 78, 273, 77.20001, 276.90002, 78, 279.3, 78, 283.3, 75, 290.40002, 75, 293.40002, 72, 300.3, 72, 304.3, 69, 309.40002, 69, 312, 66.399994, 312, 65.600006, 318, 63.700012, 318, 63, 327.3, 63, 332.3, 60, 335.40002, 60, 342, 54.5, 342, 53.600006, 359.09998, 47, 361.40002, 47, 372.40002, 36, 373.69995, 36, 374.19995, 34.799988, 372, 32.600006, 372, 31.299988, 370.80005, 30.799988, 369.59998, 32, 368.30005, 32, 361.09998, 30, 359.69995, 30, 358.69995, 27.100006, 360, 25.299988, 360, 24.600006, 361.19995, 24, 382.40002, 24, 384, 22.399994, 384, 21.600006, 389.19995, 19, 392.40002, 19, 405, 6.399994, 405, 4.5, 407.30005, 3, 409.5, 3, 413.5, -2, 414.59998, -2, 417, -6.799988, 417, -8, 418.59998, -8, 419.59998, -10, 421, -10, 421, -14.700012, 424, -18.700012, 424, -20.399994, 426, -21.399994, 426, -27.399994, 422, -31.399994, 422, -33, 418.30005, -33, 409, -38.600006, 409, -39.799988, 402.09998, -41, 395.30005, -41, 391.30005, -44, 384.30005, -44, 382, -45.600006, 382, -47, 380, -47, 380, -48, 373.30005, -48, 367, -52.600006, 367, -54, 364, -54, 364, -55, 352.30005, -55, 349, -57.5, 349, -59, 336.19995, -59, 335, -59.600006, 335, -61, 326.3, -61, 323.3, -63, 315.40002, -63, 310.40002, -67, 294.3, -67, 291, -69.5, 291, -71, 269.40002, -71, 265.40002, -75, 221, -75, 221, -74, 203.79999, -74, 198, -71.70001, 198, -71, 175, -70, 164.29999, -70, 159.29999, -73, 153.40002, -73, 151.40002, -75, 145.29999, -75, 142, -77.5, 142, -79, 137.29999, -79, 129.29999, -85, 127.599976, -85, 127, -86.20001, 127, -88.399994, 120.400024, -95, 119.599976, -95, 117, -100.20001, 117, -102.399994, 111, -109.5, 111, -111.399994, 95, -127.399994, 95, -129.5, 87.400024, -136, 85.5, -136, 81, -141.4, 81, -142.6, 76.20001, -145, 74.400024, -145, 71, -148.4, 71, -149.8, 65.099976, -151, 64, -151, 64, -152.6, 62, -153.6, 62, -155, 56.400024, -155, 52, -158.5, 52, -159.7, 48.200012, -161, 39.299988, -161, 37, -162.6, 37, -164)
