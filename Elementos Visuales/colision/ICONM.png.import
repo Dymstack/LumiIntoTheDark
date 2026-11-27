@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://b4aat2nriify4"
+path="res://.godot/imported/ICONM.png-ed36fb5ef64dba9c914ca50a84803b63.res"
+
+[deps]
+
+source_file="res://Elementos Visuales/colision/ICONM.png"
+dest_files=["res://.godot/imported/ICONM.png-ed36fb5ef64dba9c914ca50a84803b63.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

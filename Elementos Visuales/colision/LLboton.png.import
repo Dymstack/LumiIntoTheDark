@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://bxgnblu3i6npy"
+path="res://.godot/imported/LLboton.png-8132f490126b2f177ef4429c261a11f2.res"
+
+[deps]
+
+source_file="res://Elementos Visuales/colision/LLboton.png"
+dest_files=["res://.godot/imported/LLboton.png-8132f490126b2f177ef4429c261a11f2.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

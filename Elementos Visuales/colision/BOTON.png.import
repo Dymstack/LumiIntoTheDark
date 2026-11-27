@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://dfaw4qld4dsoo"
+path="res://.godot/imported/BOTON.png-b042a0830e4b338d1b35695b3615add2.res"
+
+[deps]
+
+source_file="res://Elementos Visuales/colision/BOTON.png"
+dest_files=["res://.godot/imported/BOTON.png-b042a0830e4b338d1b35695b3615add2.res"]
+
+[params]
+
+create_from=0
+threshold=0.5
